@@ -1,0 +1,916 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Ideen in<br/>digitale Realität<br/>verwandeln",
+      "description": "Wir sind Experten in der Erstellung maßgeschneiderter Softwarelösungen, von mobilen Apps bis hin zu komplexen Systemen, um Ihr Geschäft voranzutreiben.",
+      "formButton": "Jetzt starten",
+      "formPlaceholder": "Ihre beste E-Mail-Adresse",
+      "logoAlt": "ayrCore Logo",
+      "dashboardVideoFallback": "Ihr Dashboard-Video hier",
+      "mobileVideoFallback": "Ihr Handy-Video hier"
+    },
+    "services": {
+      "mobile": {
+        "title": "Mobile Anwendungen",
+        "description": "Wir entwickeln native und hybride Apps für iOS und Android, mit Fokus auf Leistung und Benutzererfahrung."
+      },
+      "corporate": {
+        "title": "Unternehmenssysteme",
+        "description": "Optimieren Sie Ihre Prozesse mit robusten, sicheren und vollständig angepassten Managementsystemen (ERP, CRM)."
+      },
+      "software": {
+        "title": "Maßgeschneiderte Software",
+        "description": "Wir entwickeln das genaue Werkzeug, das Ihr Unternehmen benötigt, um einzigartige Herausforderungen zu lösen und die Effizienz zu steigern."
+      },
+      "saas": {
+        "title": "SaaS-Plattformen",
+        "description": "Wir bauen und skalieren SaaS-Produkte (Software as a Service) für den globalen Markt."
+      },
+      "web": {
+        "title": "Webentwicklung",
+        "description": "Von institutionellen Websites bis zu komplexen Webanwendungen bauen wir Ihre Online-Präsenz mit modernster Technologie auf."
+      },
+      "automation": {
+        "title": "Prozessautomatisierung",
+        "description": "Reduzieren Sie Kosten und steigern Sie die Produktivität durch die Automatisierung manueller und sich wiederholender Aufgaben."
+      }
+    },
+    "phrase": "Innovation in jeder Codezeile",
+    "advancedServices": {
+      "blockchain": {
+        "title": "Blockchain",
+        "description": "Entwicklung von Smart Contracts, Spielen und nicht-fungiblen Tokens (NFTs) mit zufälliger Kunst."
+      },
+      "ai": {
+        "title": "Künstliche Intelligenz",
+        "description": "Verarbeitung natürlicher Sprache, Bildanalyse, Mustererkennung und KI für Unternehmen."
+      },
+      "games": {
+        "title": "Spiele von Weltklasse",
+        "description": "Künstlerische Spiele in jeder Größe, an jedem Ort oder auf jeder Plattform, mit Grafiken von Weltklasse."
+      },
+      "native": {
+        "title": "Native Anwendungen",
+        "description": "Erreichen Sie Ihr Publikum im App Store, Play Store und in der Huawei App Gallery."
+      },
+      "design": {
+        "title": "Modernes und Elegantes Design",
+        "description": "Wir verwenden ein einzigartiges, modernes und attraktives Design bei allen Dienstleistungen, die wir anbieten."
+      },
+      "systems": {
+        "title": "Interne Systeme",
+        "description": "Egal, um welches System es sich handelt, wir behandeln es wie ein Millionen-Dollar-Projekt."
+      }
+    },
+    "quote": {
+      "text": "\"Wenn du erfolgreich sein<br />willst, musst du dich<br />vollkommen hingeben,<br />deine Grenzen<br />austesten und<br />immer dein Bestes geben.\"",
+      "author": "— Ayrton Senna",
+      "title": "Formel-1-Legende"
+    }
+  },
+  "Navbar": {
+    "features": "Funktionen",
+    "solutions": "Lösungen",
+    "about": "Über uns",
+    "contact_button": "Kontakt",
+    "dropdown": {
+      "support_center": {
+        "title": "Support-Center",
+        "desc": "Finden Sie Hilfe und Anleitungen."
+      },
+      "vacancies": {
+        "title": "Karriere",
+        "desc": "Werden Sie Teil unseres Teams."
+      },
+      "become_a_partner": {
+        "title": "Partner werden",
+        "desc": "Entdecken Sie Partnerschaftsmöglichkeiten."
+      },
+      "blog": {
+        "title": "Blog",
+        "desc": "Artikel, Neuigkeiten und Anleitungen."
+      },
+      "faq": {
+        "title": "FAQ",
+        "desc": "Antworten auf häufig gestellte Fragen."
+      },
+      "saas": {
+        "title": "SaaS-Plattformen",
+        "desc": "Skalierbare Lösungen, die für den Markt bereit sind."
+      },
+      "mobile_application_creation": {
+        "title": "App-Erstellung",
+        "desc": "Native und hybride mobile Anwendungen."
+      },
+      "software_development": {
+        "title": "Softwareentwicklung",
+        "desc": "Maßgeschneiderte Systeme für Ihre Bedürfnisse."
+      },
+      "corporate_solutions": {
+        "title": "Unternehmenslösungen",
+        "desc": "Optimieren Sie Ihr Geschäftsmanagement."
+      },
+      "web_development": {
+        "title": "Webentwicklung",
+        "desc": "Hochleistungsfähige Websites und Webanwendungen."
+      },
+      "integrations": {
+        "title": "Integrationen & Automatisierungen",
+        "desc": "Verbinden Sie Systeme und automatisieren Sie Prozesse."
+      }
+    }
+  },
+  "SupportCenterPage": {
+    "hero": {
+      "title_support_center": "Wie können wir helfen?",
+      "description_support_center": "Finden Sie Antworten zu unserem Prozess, unseren Dienstleistungen und unserem Support. Wenn Sie nicht finden, was Sie suchen, steht unser Team für ein Gespräch bereit."
+    },
+    "faq_suport_center_title": "Häufig gestellte Fragen",
+    "faq_suport_center_descrition": "Antworten auf die häufigsten Fragen unserer Kunden.",
+    "contact": {
+      "title_suport_center": "Benötigen Sie noch Hilfe?",
+      "description_suport_center": "Unser Expertenteam ist bereit, Ihre Idee in die Tat umzusetzen. Kontaktieren Sie uns."
+    },
+    "categories": {
+      "process": {
+        "title": "Unser Arbeitsprozess",
+        "description": "Jedes Projekt durchläuft klare Phasen der Planung, des Designs, der Entwicklung und des Testens, um qualitativ hochwertige und termingerechte Lieferungen zu gewährleisten."
+      },
+      "solutions": {
+        "title": "Maßgeschneiderte Lösungen",
+        "description": "Wir sind Spezialisten für die Erstellung von maßgeschneiderter Software, Websites und Anwendungen, die echte Probleme lösen und Ihr Unternehmen voranbringen."
+      },
+      "support": {
+        "title": "Support nach dem Start",
+        "description": "Wir bieten eine Garantie und laufende Wartungspläne an, damit Ihre digitale Lösung immer sicher, aktuell und funktionsfähig bleibt."
+      },
+      "partnership": {
+        "title": "Partnerschaft und Transparenz",
+        "description": "Wir arbeiten an Ihrer Seite. Die Kommunikation ist konstant und jeder Vorschlag ist detailliert, damit Sie volles Vertrauen in das Projekt haben."
+      }
+    },
+    "faq": {
+      "software": {
+        "question": "Welche Art von Software entwickeln Sie?",
+        "answer": "Wir sind spezialisiert auf maßgeschneiderte Software für Ihre Geschäftsanforderungen, einschließlich Managementsystemen (ERP, CRM), Prozessautomatisierung und SaaS-Plattformen, immer mit dem Ziel, Ihre Abläufe zu optimieren."
+      },
+      "sites": {
+        "question": "Erstellen Sie jede Art von Website?",
+        "answer": "Ja. Wir entwickeln alles von Landingpages und institutionellen Websites bis hin zu komplexen Portalen und robusten E-Commerce-Shops. Alle unsere Websites sind responsiv (für Mobilgeräte angepasst) und für Google optimiert (SEO)."
+      },
+      "apps": {
+        "question": "Für welche Betriebssysteme entwickeln Sie Apps?",
+        "answer": "Wir entwickeln für die wichtigsten Systeme: iOS (Apple) und Android (Google). Wir erstellen native Apps für maximale Leistung oder plattformübergreifende Apps, um Kosten und Entwicklungszeit zu optimieren."
+      },
+      "cost": {
+        "question": "Wie viel kostet ein Projekt und wie lange dauert es?",
+        "answer": "Die Kosten und der Zeitplan hängen von der Komplexität und dem Umfang jedes Projekts ab. Nach einem ersten Gespräch, um Ihre Bedürfnisse zu verstehen, erstellen wir einen detaillierten und transparenten Vorschlag mit Zeitplan und Investition."
+      },
+      "support": {
+        "question": "Bieten Sie nach der Projektabgabe Support an?",
+        "answer": "Auf jeden Fall. Unsere Partnerschaft endet nicht mit dem Start. Alle Projekte beinhalten eine Garantiezeit und wir bieten laufende Support- und Wartungspläne an, um die Langlebigkeit Ihrer Plattform zu gewährleisten."
+      }
+    }
+  },
+  "PartnersPage": {
+    "hero": {
+      "title": "Schließen Sie sich uns an und gestalten Sie die Zukunft.",
+      "description": "Das ayrCore-Partnerschaftsprogramm wurde geschaffen, um Zusammenarbeit in Wachstum zu verwandeln.",
+      "ctaButton": "Partner werden"
+    },
+    "partnerTypesSection": {
+      "title": "Ein Partnerschaftsprogramm, das für Sie gemacht ist",
+      "subtitle": "Unabhängig von Ihrem Geschäftsmodell haben wir einen Weg zur Zusammenarbeit."
+    },
+    "partnerTypes": {
+      "agencies": {
+        "title": "Agenturen und Beratungsunternehmen",
+        "description": "Erweitern Sie Ihr Portfolio mit maßgeschneiderten Softwarelösungen für Ihre Kunden."
+      },
+      "developers": {
+        "title": "Entwickler und Freiberufler",
+        "description": "Arbeiten Sie an wirkungsvollen Projekten zusammen und stärken Sie Ihre Verträge mit einer professionellen Struktur."
+      },
+      "techCompanies": {
+        "title": "Technologieunternehmen",
+        "description": "Integrieren Sie unsere Lösungen in Ihre Plattformen und schaffen Sie vollständige und skalierbare Ökosysteme."
+      }
+    },
+    "benefitsSection": {
+      "title": "Vorteile einer ayrCore-Partnerschaft",
+      "subtitle": "Exklusive Vorteile, die darauf ausgelegt sind, den Erfolg unserer Partnerschaft zu maximieren."
+    },
+    "benefits": {
+      "commissions": {
+        "title": "Wettbewerbsfähige Provisionen",
+        "description": "Erhalten Sie einen attraktiven Prozentsatz für jeden vermittelten Kunden und jedes abgeschlossene Projekt."
+      },
+      "support": {
+        "title": "Technischer und kommerzieller Support",
+        "description": "Verlassen Sie sich auf unser Team, das Sie bei Präsentationen, Angeboten und der Projektdurchführung unterstützt."
+      },
+      "comarketing": {
+        "title": "Co-Marketing und Sichtbarkeit",
+        "description": "Nehmen Sie an gemeinsamen Kampagnen und Webinaren teil und gewinnen Sie an Sichtbarkeit auf unseren Kommunikationskanälen."
+      }
+    }
+  },
+  "FAQPage": {
+    "hero": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Finden Sie hier schnelle Antworten auf Ihre häufigsten Fragen zu unseren Dienstleistungen und Prozessen."
+    },
+    "faq": {
+      "specialty": {
+        "question": "Was ist die Spezialität von ayrCore?",
+        "answer": "Unsere Spezialität ist die Entwicklung maßgeschneiderter Software, von mobilen Anwendungen bis hin zu komplexen Unternehmenssystemen. Wir arbeiten mit modernen Technologien und agilen Methoden, um Lösungen zu schaffen, die die spezifischen Probleme jedes Kunden wirklich lösen."
+      },
+      "process": {
+        "question": "Wie funktioniert der Entwicklungsprozess?",
+        "answer": "Unser Prozess ist kollaborativ und transparent und in 4 Hauptphasen unterteilt: 1) Entdeckung und Planung, 2) Design und Prototyping, 3) Entwicklung und Tests, 4) Start und Support. Sie verfolgen jede Phase und nehmen aktiv an den Entscheidungen teil."
+      },
+      "cost": {
+        "question": "Wie viel kostet die Entwicklung einer Software oder einer Anwendung?",
+        "answer": "Die Kosten eines Projekts variieren erheblich je nach Komplexität, gewünschten Funktionen und verwendeten Technologien. Nach einem ersten Gespräch, um Ihre Bedürfnisse zu verstehen, erstellen wir ein detailliertes und transparentes Angebot mit Kosten und Zeitplänen."
+      },
+      "tracking": {
+        "question": "Kann ich den Fortschritt meines Projekts verfolgen?",
+        "answer": "Ja! Transparenz ist einer unserer Grundwerte. Sie erhalten Zugang zu einer Plattform, auf der Sie den Fortschritt in Echtzeit verfolgen, erledigte Aufgaben einsehen und an regelmäßigen Statusbesprechungen mit unserem Team teilnehmen können."
+      },
+      "support": {
+        "question": "Bieten Sie nach dem Start Wartung und Support an?",
+        "answer": "Auf jeden Fall. Wir bieten laufende Support- und Wartungspläne an, um sicherzustellen, dass Ihre Lösung sicher, aktuell und reibungslos funktioniert. Alle Projekte beinhalten eine anfängliche Garantiezeit."
+      },
+      "technologies": {
+        "question": "Welche Technologien verwenden Sie?",
+        "answer": "Wir arbeiten mit allen modernen Markttechnologien: React, Node.js, Python, Flutter, React Native, AWS, Docker, PostgreSQL, MongoDB und vielen anderen. Wir wählen den idealen Technologie-Stack für jedes Projekt basierend auf seinen spezifischen Anforderungen aus."
+      }
+    },
+    "cta": {
+      "title": "Haben Sie noch Fragen?",
+      "description": "Unser Team ist bereit, die Besonderheiten Ihres Projekts zu besprechen.",
+      "button": "Kontaktieren Sie uns"
+    }
+  },
+  "CareersPage": {
+    "hero": {
+      "title": "Gestalten Sie mit uns die Zukunft der Technologie.",
+      "description": "Wir sind immer auf der Suche nach talentierten, neugierigen und leidenschaftlichen Menschen, die sich unserer Mission anschließen möchten, Lösungen zu schaffen, die die Welt beeinflussen."
+    },
+    "culture": {
+      "title": "Warum bei uns arbeiten?",
+      "subtitle": "Wir glauben, dass ein außergewöhnliches Team außergewöhnliche Produkte baut.",
+      "innovation": {
+        "title": "Kontinuierliche Innovation",
+        "description": "Arbeiten Sie mit Spitzentechnologien an anspruchsvollen Projekten."
+      },
+      "collaboration": {
+        "title": "Kultur der Zusammenarbeit",
+        "description": "Wir arbeiten zusammen, um großartige Ergebnisse zu erzielen."
+      },
+      "impact": {
+        "title": "Echte Wirkung",
+        "description": "Wir schaffen echten Wert für unsere Kunden und die Gesellschaft."
+      }
+    },
+    "jobs": {
+      "title": "Offene Stellen",
+      "available": "Sehen Sie sich die verfügbaren Stellen unten an.",
+      "noOpenings": "Vielen Dank für Ihr Interesse! Derzeit haben wir keine offenen Stellen.",
+      "apply": "Bewerben",
+      "noOpeningsTitle": "Keine offenen Stellen verfügbar",
+      "talentPoolMessage": "Senden Sie Ihren Lebenslauf an unseren Talent-Pool."
+    },
+    "cta": {
+      "title": "Möchten Sie Teil des Teams werden?",
+      "description": "Große Talente sind immer willkommen. Wenn Sie glauben, dass Sie unser Team bereichern können, würden wir Sie gerne kennenlernen.",
+      "emailLabel": "Senden Sie Ihren Lebenslauf an:"
+    }
+  },
+  "saas": {
+    "hero": {
+      "title": "Verwandeln Sie Ihre Idee in ein erfolgreiches SaaS",
+      "subtitle": "Wir sind mehr als nur Entwickler. Wir sind Ihre strategischen Partner...",
+      "cta": "Sprechen Sie mit einem Experten"
+    },
+    "approach": {
+      "title": "Von der Validierung bis zur Skalierung: Ihre SaaS-Reise mit uns",
+      "description": "Wir verwandeln Visionen in erfolgreiche Produkte."
+    },
+    "expertise": {
+      "scalableArchitecture": {
+        "title": "Skalierbare und Cloud-Native Architektur",
+        "description": "Wir bauen Ihr SaaS mit einer modernen, flexiblen Infrastruktur, die Leistung, hohe Verfügbarkeit und nahtlose Cloud-Integration gewährleistet."
+      },
+      "experienceDesign": {
+        "title": "Erlebnisdesign mit Fokus auf Kundenbindung",
+        "description": "Wir schaffen intuitive und ansprechende Benutzeroberflächen, die die Benutzerfreundlichkeit verbessern und Ihre Benutzer binden."
+      },
+      "monetizationStrategies": {
+        "title": "Intelligente Monetarisierungsstrategien",
+        "description": "Wir integrieren effiziente Zahlungslösungen, um den Umsatz zu steigern und ein sicheres, reibungsloses Kauferlebnis zu bieten."
+      },
+      "security": {
+        "title": "Sicherheit als absolute Priorität",
+        "description": "Wir schützen Daten mit Verschlüsselung, fortschrittlicher Authentifizierung und Einhaltung internationaler Standards."
+      }
+    },
+    "methodology": {
+      "title": "Unsere bewährte Erfolgsmethodik",
+      "description": "Wir folgen einem erprobten Prozess...",
+      "immersionStrategy": {
+        "title": "1. Immersion und Strategie",
+        "description": "Wir analysieren Ihr Geschäftsmodell und Ihre Ziele, um einen personalisierten Technologieplan zu erstellen, mit klaren Erfolgsmetriken und strategischer Ausrichtung."
+      },
+      "designPrototyping": {
+        "title": "2. UX/UI-Design und Prototyping",
+        "description": "Wir entwickeln interaktive Prototypen auf Basis von Benutzerforschung, testen und verfeinern jeden Ablauf, um Intuition und Engagement zu gewährleisten."
+      },
+      "agileDevelopment": {
+        "title": "3. Agile Entwicklung",
+        "description": "Wir implementieren Lösungen mit agilen Methoden, mit Fokus auf sauberen Code, skalierbare Architektur und nahtlose Integration in Ihre Systeme."
+      },
+      "launchEvolution": {
+        "title": "4. Start und Evolution",
+        "description": "Wir verwalten die gesamte Bereitstellungsinfrastruktur und kontinuierliche Optimierungen, mit ständiger Überwachung, um Ihre Lösung wettbewerbsfähig zu halten."
+      }
+    },
+    "technology": {
+      "title": "Spitzentechnologie für Ihr Produkt",
+      "description": "Wir beherrschen ein komplettes technologisches Ökosystem...",
+      "icons": {
+        "frontend": "Front-End",
+        "backend": "Back-End",
+        "database": "Datenbank",
+        "cloud": "Cloud",
+        "mobile": "Mobile",
+        "devops": "DevOps und Infra"
+      }
+    },
+    "finalCta": {
+      "title": "Bereit, das nächste große SaaS zu bauen?",
+      "description": "Ihre Vision verdient eine makellose Ausführung...",
+      "button": "Validieren Sie Ihre Idee kostenlos"
+    }
+  },
+  "SoftwareDevelopmentPage": {
+    "hero": {
+      "title": "Maßgeschneiderte Software für einzigartige Herausforderungen",
+      "description": "Wir gehen über den Code hinaus. Wir entwickeln Softwarelösungen, die Betriebsabläufe optimieren, Systeme integrieren und Ihrem Unternehmen einen echten Wettbewerbsvorteil verschaffen.",
+      "cta": "Anforderungsanalyse planen"
+    },
+    "painPoints": {
+      "sectionTitle": "Steht Ihr Unternehmen vor diesen Herausforderungen?",
+      "sectionSubtitle": "Standardsoftware löst nicht immer spezifische Probleme. Wir schaffen die exakte Lösung für Ihre Bedürfnisse.",
+      "legacy": {
+        "title": "Veraltete und überholte Software",
+        "description": "Alte Systeme, die teuer in der Wartung und unsicher sind und nicht mit dem Unternehmenswachstum Schritt halten."
+      },
+      "disconnected": {
+        "title": "Nicht vernetzte Systeme",
+        "description": "Informationen, die in Silos gefangen sind und eine 360°-Sicht auf das Geschäft und die Entscheidungsfindung erschweren."
+      },
+      "manual": {
+        "title": "Manuelle und langsame Prozesse",
+        "description": "Sich wiederholende Aufgaben, die Zeit und Geld kosten und anfällig für menschliche Fehler sind."
+      },
+      "data": {
+        "title": "Fehlende Daten für Entscheidungen",
+        "description": "Die Unfähigkeit, wichtige KPIs in Echtzeit für eine strategische Verwaltung zu extrahieren und zu visualisieren."
+      }
+    },
+    "partnership": {
+      "title": "Eine strategische Partnerschaft, nicht nur ein Lieferant",
+      "description": "Unser größter Vorteil ist, dass wir tief in Ihr Geschäft eintauchen. Wir verstehen Ihre Regeln, Abläufe und Ziele, um eine Lösung zu entwickeln, die einen echten und messbaren Wert schafft.",
+      "features": {
+        "analysis": {
+          "strong": "Anforderungsanalyse:",
+          "text": "Tiefgreifende Prozessabbildung."
+        },
+        "roi": {
+          "strong": "Fokus auf ROI:",
+          "text": "Ergebnisorientierte Entwicklung und Return on Investment."
+        },
+        "methodology": {
+          "strong": "Agile Methodik:",
+          "text": "Schnelle Lieferungen, kontinuierliches Feedback und volle Transparenz."
+        }
+      }
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "description": "Auch ohne ein umfangreiches Portfolio glauben wir, dass die Grundlage jedes erfolgreichen Projekts in unseren Werten liegt.",
+      "items": {
+        "innovation": {
+          "title": "Innovation",
+          "description": "Wir suchen stets nach kreativen und technologischen Lösungen, die wirklich einen Unterschied machen."
+        },
+        "personalization": {
+          "title": "Personalisierung",
+          "description": "Jedes Unternehmen ist einzigartig, und die Software sollte diese Einzigartigkeit widerspiegeln."
+        },
+        "commitment": {
+          "title": "Engagement",
+          "description": "Wir stehen Ihnen in jeder Phase zur Seite und gewährleisten Qualität und termingerechte Lieferung."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Ihr Betrieb kann intelligenter sein. Sollen wir anfangen?",
+      "description": "Vereinbaren Sie ein unverbindliches Gespräch. Wir werden Ihre Herausforderungen verstehen und den Weg zur digitalen Transformation Ihres Unternehmens entwerfen.",
+      "cta": "Kontaktieren Sie einen Architekten"
+    },
+    "mockup": {
+      "sidebar": {
+        "dashboard": "Dashboard",
+        "openMenu": "Menü öffnen",
+        "closeMenu": "Menü schließen"
+      },
+      "chart": {
+        "months": {
+          "jan": "Jan",
+          "feb": "Feb",
+          "mar": "März",
+          "apr": "Apr",
+          "may": "Mai",
+          "jun": "Juni"
+        }
+      },
+      "header": {
+        "title": "Analyse-Dashboard",
+        "subtitle": "Überblick über Ergebnisse und Leistung.",
+        "newTask": "Neue Aufgabe"
+      },
+      "kpis": {
+        "vsLastMonth": "ggü. Vormonat",
+        "items": {
+          "projectRoi": "Projekt-ROI",
+          "operationalEfficiency": "Betriebliche Effizienz",
+          "completedTasks": "Abgeschlossene Aufgaben"
+        }
+      },
+      "tasks": {
+        "priorityTasks": "Vorrangige Aufgaben",
+        "viewAll": "Alle anzeigen",
+        "markAsCompleted": "Als erledigt markieren",
+        "markAsNotCompleted": "Als nicht erledigt markieren",
+        "taskOptions": "Aufgabenoptionen",
+        "items": {
+          "clientAnalysis": "Anforderungsanalyse Kunde X",
+          "billingModule": "Entwicklung des Abrechnungsmoduls"
+        },
+        "status": {
+          "completed": "Abgeschlossen",
+          "inProgress": "In Bearbeitung",
+          "pending": "Ausstehend"
+        },
+        "priority": {
+          "high": "Hoch",
+          "medium": "Mittel",
+          "low": "Niedrig"
+        }
+      }
+    }
+  },
+  "webDevelopment": {
+    "hero": {
+      "title": "Die digitale Vitrine, die Ihr Unternehmen verdient",
+      "subtitle": "Wir erstellen Unternehmenswebsites, die Autorität aufbauen, und leistungsstarke Online-Shops, die Besucher in Kunden verwandeln.",
+      "cta": "Starten Sie Ihr Webprojekt"
+    },
+    "pillars": {
+      "sectionTitle": "Grundlagen eines erfolgreichen Webprojekts",
+      "design": {
+        "title": "Strategisches Design und UX/UI",
+        "description": "Wir entwerfen Layouts, die nicht nur schön sind, sondern den Nutzer auch klar führen, Ihre Markenidentität widerspiegeln und Ihre Ziele unterstützen."
+      },
+      "seo": {
+        "title": "SEO-Optimierung",
+        "description": "Wir entwickeln jede Website mit einer soliden technischen Basis, sodass Google und andere Suchmaschinen Ihre Seiten finden und hoch einstufen können."
+      },
+      "performance": {
+        "title": "Hohe Leistung und Geschwindigkeit",
+        "description": "Eine langsame Website vertreibt Kunden. Wir optimieren Bilder, Code und Server, um schnelle Ladezeiten zu gewährleisten und sowohl Nutzererfahrung als auch SEO zu verbessern."
+      },
+      "responsive": {
+        "title": "100 % responsives Design",
+        "description": "Wir garantieren eine einwandfreie Erfahrung auf jedem Bildschirm – ob Desktop, Tablet oder Smartphone."
+      }
+    },
+    "solutions": {
+      "title": "Weblösungen für jedes Ziel",
+      "institutional": {
+        "title": "Unternehmenswebsites und Landing Pages",
+        "subtitle": "Um Autorität aufzubauen und Leads zu generieren.",
+        "description": "Der erste Eindruck zählt. Wir entwickeln Websites, die Professionalität ausstrahlen, Ihre Geschichte erzählen und Besucher in qualifizierte Kontakte verwandeln.",
+        "features": [
+          "Exklusives Design abgestimmt auf Ihre Marke",
+          "Content-Management-System (CMS)",
+          "Optimiert für Lead-Generierung"
+        ]
+      },
+      "ecommerce": {
+        "title": "Online-Shops mit hoher Konvertierung",
+        "subtitle": "Um mehr zu verkaufen und Ihr Geschäft zu skalieren.",
+        "description": "Wir entwickeln sichere, schnelle E-Commerce-Plattformen mit einer makellosen Einkaufserfahrung, die Warenkorbabbrüche reduziert und den Umsatz steigert.",
+        "features": [
+          "Integration mit sicheren Zahlungsgateways",
+          "Einfache Verwaltung von Produkten, Lagerbestand und Bestellungen",
+          "Fokus auf Conversion-Rate-Optimierung (CRO)"
+        ]
+      }
+    },
+    "showcase": {
+      "title": "So kann Ihre Website zum Leben erwachen",
+      "subtitle": "Beispiel dafür, wie wir moderne visuelle Lösungen für alle Geräte liefern.",
+      "loading": "Mockup wird geladen…",
+      "hiddenOnMobile": "Desktop-Mockup auf kleinen Bildschirmen ausgeblendet für bessere Performance"
+    },
+    "finalCta": {
+      "title": "Bereit, Ihre Online-Präsenz zu starten oder neu zu erfinden?",
+      "subtitle": "Egal welche Herausforderung, unser Team ist bereit, die Weblösung zu entwickeln, die Ihr Geschäft auf das nächste Level bringt.",
+      "cta": "Sprechen Sie mit unseren Web-Spezialisten"
+    },
+    "coffeeShop": {
+      "brand": "COFFEE",
+      "title": "Coffee Shop",
+      "subtitle": "Entdecken Sie den authentischen Geschmack von Kaffee aus ausgewählten Bohnen.",
+      "description": "Ein einzigartiges Erlebnis bei jedem Schluck.",
+      "nav": {
+        "home": "Startseite",
+        "menu": "Speisekarte",
+        "promotions": "Aktionen",
+        "contact": "Kontakt"
+      },
+      "search": "Suchen",
+      "orderOnline": "Online bestellen",
+      "favorites": "Favoriten",
+      "icedCoffees": "Eiskaffees",
+      "categories": {
+        "hotCoffees": "Heiße Kaffees",
+        "hotShort": "Heiß",
+        "specials": "Spezialitäten",
+        "snacks": "Snacks"
+      },
+      "viewMenu": "Speisekarte ansehen",
+      "loading": "Lädt...",
+      "openMenu": "Menü öffnen"
+    }
+  },
+  "AppDevelopmentPage": {
+    "hero": {
+      "title": "Erstellen Sie Apps, die Ihre Nutzer lieben werden",
+      "description": "Von der Skizze bis zum App Store. Wir verwandeln Ihre Vision in leistungsstarke iOS- und Android-Anwendungen, die Engagement fördern, Probleme lösen und Ihr Geschäft voranbringen.",
+      "cta": "Verwirklichen Sie Ihre Idee als App"
+    },
+    "approach": {
+      "title": "Mehr als eine App. Ein komplettes Erlebnis.",
+      "description": "Unsere Methodik deckt alle entscheidenden Aspekte ab, um sicherzustellen, dass Ihre Anwendung nicht nur funktional, sondern auch ein Markterfolg ist.",
+      "items": {
+        "design": {
+          "title": "Fesselndes UX/UI-Design",
+          "description": "Wir entwerfen intuitive und visuell ansprechende Oberflächen, die sich auf die User Journey konzentrieren, um ein unvergessliches und benutzerfreundliches Erlebnis zu gewährleisten."
+        },
+        "development": {
+          "title": "Nativ (iOS/Android) und Hybrid",
+          "description": "Wir entwickeln mit der idealen Technologie für Ihr Projekt, sei es nativ für maximale Leistung oder hybrid (React Native) zur Optimierung von Zeit und Kosten."
+        },
+        "performance": {
+          "title": "Leistung und Optimierung",
+          "description": "Unsere Apps sind so konzipiert, dass sie schnell, reaktionsschnell und effizient sind, minimalen Akku und Daten verbrauchen und auf verschiedenen Geräten gut funktionieren."
+        },
+        "integration": {
+          "title": "Robuste Back-End-Integration",
+          "description": "Wir verbinden Ihre Anwendung mit jedem bestehenden System, jeder Datenbank oder API und stellen sicher, dass die Daten sicher und konsistent fließen."
+        }
+      }
+    },
+    "process": {
+      "title": "Unser Entwicklungsprozess",
+      "description": "Ein transparenter und kollaborativer Prozess, vom Konzept bis zur Veröffentlichung.",
+      "steps": {
+        "strategy": {
+          "title": "Strategie",
+          "description": "Tiefes Eintauchen in Ihre Idee, Marktanalyse und Definition von KPIs."
+        },
+        "design": {
+          "title": "UX/UI-Design",
+          "description": "Erstellung von Wireframes, navigierbaren Prototypen und visuellem Design."
+        },
+        "development": {
+          "title": "Entwicklung",
+          "description": "Agile Programmierung, strenge Tests und Qualitätssicherung."
+        },
+        "launch": {
+          "title": "Veröffentlichung",
+          "description": "Publikation in den App Stores und Support nach dem Start."
+        }
+      }
+    },
+    "concept": {
+      "title": "Vom Konzept zur Realität",
+      "description": "Um unseren Ansatz, unsere Qualität und unsere Liebe zum Detail zu demonstrieren, haben wir ein Konzeptprojekt erstellt, das unser Streben nach Exzellenz widerspiegelt.",
+      "commitmentTitle": "Unser Engagement für Ihren Erfolg",
+      "commitmentDescription": "Mehr als nur Code, wir bauen Partnerschaften auf. Jedes Projekt ist eine Gelegenheit, etwas Unglaubliches zu schaffen, und dies sind die Säulen, die die Qualität unserer Arbeit gewährleisten:",
+      "commitments": {
+        "userCentered": {
+          "title": "Benutzerzentriertes Design",
+          "description": "Wir schaffen Oberflächen, die nicht nur schön, sondern auch intuitiv und einfach zu bedienen sind, um das beste Erlebnis zu gewährleisten."
+        },
+        "cleanCode": {
+          "title": "Sauberer und skalierbarer Code",
+          "description": "Wir schreiben robusten und gut dokumentierten Code, der es Ihrer Anwendung ermöglicht, ohne zukünftige Kopfschmerzen zu wachsen."
+        },
+        "communication": {
+          "title": "Transparente Kommunikation",
+          "description": "Sie werden immer über den Fortschritt informiert sein. Wir glauben an eine klare und ständige Kommunikation während des gesamten Projekts."
+        }
+      },
+      "contactLink": "Lassen Sie uns über Ihre Idee sprechen"
+    },
+    "finalCta": {
+      "title": "Bereit, Ihre Idee auf dem Bildschirm zu sehen?",
+      "description": "Unser Team ist bereit, sich in Ihr Projekt zu vertiefen und es in eine erfolgreiche Anwendung zu verwandeln. Das erste Gespräch geht auf uns.",
+      "cta": "Angebot anfordern"
+    }
+  },
+  "AppMockup": {
+    "header": {
+      "title": "Heutige Aufgaben"
+    },
+    "calendar": {
+      "month": "Mai",
+      "weekdays": {
+        "tue": "Di",
+        "wed": "Mi",
+        "thu": "Do",
+        "fri": "Fr"
+      }
+    },
+    "tabs": {
+      "all": "Alle",
+      "inProgress": "In Arbeit",
+      "completed": "Abgeschlossen"
+    },
+    "tasks": {
+      "status": {
+        "completed": "Abgeschlossen",
+        "inProgress": "In Arbeit"
+      },
+      "items": {
+        "financeRedesign": {
+          "title": "Neugestaltung der App „Meine Finanzen“",
+          "description": "Entwickeln Sie einen hochauflösenden, navigierbaren Prototyp in Figma."
+        },
+        "usabilityTest": {
+          "title": "Neugestaltung der App „Meine Finanzen“",
+          "description": "Planen Sie Usability-Tests mit den Hauptnutzern."
+        },
+        "alignmentMeeting": {
+          "title": "Abstimmungsmeeting: Projektstatus „Meine Finanzen“",
+          "description": "Entwickeln Sie die Besprechungsunterlagen."
+        }
+      }
+    },
+    "floatingButton": {
+      "label": "Neue Aufgabe hinzufügen"
+    }
+  },
+  "CorporateSolutionsPage": {
+    "hero": {
+      "title": "Technologie als Wettbewerbsvorteil",
+      "subtitle": "Für Unternehmen, die eine Marktführerschaft anstreben, reicht Technologie allein nicht aus. Man braucht ein intelligentes digitales Ökosystem. Wir bauen es für Sie auf.",
+      "ctaButton": "Strategische Beratung vereinbaren"
+    },
+    "pillars": {
+      "sectionTitle": "Säulen der unternehmerischen Transformation",
+      "sectionDescription": "Unsere Lösungen sind darauf ausgelegt, die kritischsten Herausforderungen Ihres Betriebs anzugehen und über die gesamte Wertschöpfungskette hinweg Wirkung zu erzielen.",
+      "systemIntegration": {
+        "title": "Systemintegration (ERP, CRM)",
+        "description": "Wir vereinen Ihre Altsysteme und modernen Plattformen zu einem kohärenten Ökosystem, beseitigen Datensilos und schaffen eine einzige Quelle der Wahrheit."
+      },
+      "processAutomation": {
+        "title": "Geschäftsprozessautomatisierung (BPA)",
+        "description": "Wir erfassen und automatisieren komplexe Arbeitsabläufe, von der Fertigung bis zur Finanzabteilung, um Kosten zu senken, die Geschwindigkeit zu erhöhen und Fehler zu minimieren."
+      },
+      "dataIntelligence": {
+        "title": "Datenintelligenz und BI",
+        "description": "Wir verwandeln Rohdaten in strategische Dashboards und handlungsorientierte Einblicke, die Führungskräfte befähigen, intelligentere und schnellere Entscheidungen zu treffen."
+      },
+      "customPlatforms": {
+        "title": "Maßgeschneiderte Unternehmensplattformen",
+        "description": "Wir entwickeln das zentrale Betriebssystem Ihres Unternehmens – eine maßgeschneiderte Plattform, die sich perfekt an Ihre Geschäftsregeln anpasst."
+      }
+    },
+    "process": {
+      "sectionTitle": "Ihre Vision, unsere Ingenieurskunst. Eine umfassende Partnerschaft.",
+      "sectionDescription": "Wir verstehen, dass Unternehmensprojekte geschäftskritisch sind. Unser Partnerschaftsmodell garantiert strategische Ausrichtung und exzellente Ausführung von Anfang bis Ende.",
+      "diagnosis": {
+        "title": "Diagnose & Einarbeitung:",
+        "description": "Wir analysieren Ihre Prozesse, Herausforderungen und Ziele, um eine Lösung zu entwerfen, die sich wirklich auf Ihre GuV auswirkt."
+      },
+      "architecture": {
+        "title": "Architektur & Machbarkeitsstudie:",
+        "description": "Wir erstellen den Lösungsentwurf und validieren die technischen Annahmen mit einem funktionsfähigen Prototyp (PoC)."
+      },
+      "implementation": {
+        "title": "Implementierung & Governance:",
+        "description": "Wir entwickeln mit agiler Governance und gewährleisten Transparenz sowie die Kontrolle über Fristen und Budget."
+      },
+      "support": {
+        "title": "Support & Weiterentwicklung:",
+        "description": "Wir bieten kontinuierlichen Support (SLA) und eine Roadmap für die Weiterentwicklung, damit Ihre Technologie nie veraltet."
+      }
+    },
+    "differentials": {
+      "sectionTitle": "Warum ayrCore wählen?",
+      "sectionDescription": "Schon vor den ersten Fallstudien zeigen unsere Alleinstellungsmerkmale, dass wir bereit sind, Ihre Vision mit technischer Exzellenz und Ergebnisorientierung in die Realität umzusetzen.",
+      "seniorEngineering": {
+        "title": "Senior-Engineering von Anfang an",
+        "description": "Projekte, die von erfahrenen Ingenieuren geleitet werden, die Robustheit, Skalierbarkeit und Leistung priorisieren."
+      },
+      "transparency": {
+        "title": "Volle Transparenz im Prozess",
+        "description": "Kontinuierliche Überwachung mit Dashboards, inkrementellen Lieferungen und klarer Kommunikation in jeder Phase."
+      },
+      "roiFocus": {
+        "title": "Fokus auf den Return on Investment",
+        "description": "Lösungen, die darauf ausgelegt sind, Kosten zu senken, Prozesse zu beschleunigen und einen echten Wettbewerbsvorteil zu schaffen."
+      },
+      "userCenteredDesign": {
+        "title": "Benutzerzentriertes Design",
+        "description": "Integration von Engineering und UX, um intuitive Erlebnisse zu gewährleisten, die die Benutzer begeistern."
+      },
+      "agilityQuality": {
+        "title": "Agilität ohne Qualitätsverlust",
+        "description": "Agile Methoden, die mit technischer Strenge angewendet werden, um schnelle und nachhaltige Lieferungen zu gewährleisten."
+      },
+      "innovation": {
+        "title": "Verpflichtung zur Innovation",
+        "description": "Kontinuierliche Erforschung der besten Markttechnologien, um echte Innovation in Ihrem Unternehmen anzuwenden."
+      }
+    },
+    "finalCta": {
+      "title": "Bereit, die digitale Transformation anzuführen?",
+      "subtitle": "Lassen Sie uns besprechen, wie Technologie Ihre komplexesten Herausforderungen lösen und Ihr Unternehmen für die Zukunft positionieren kann.",
+      "button": "Sprechen Sie mit einem Solutions Director"
+    }
+  },
+  "ThreeModelViewer": {
+    "loading": "Wird geladen..."
+  },
+  "AutomationPage": {
+    "hero": {
+      "title": "Verbinden. Automatisieren. Beherrschen.",
+      "subtitle": "Beseitigen Sie manuelle Arbeit. Wir schaffen die Brücken (APIs) und die Arbeitsabläufe, die Ihre Tools rund um die Uhr in perfekter Harmonie arbeiten lassen.",
+      "ctaButton": "Optimieren Sie Ihren Betrieb"
+    },
+    "painPointsSection": {
+      "title": "Fühlt sich Ihr Betrieb unzusammenhängend an?",
+      "subtitle": "Wenn Sie sich mit diesen Symptomen identifizieren, ist Automatisierung die nächste Stufe."
+    },
+    "painPoints": {
+      "dataReentry": {
+        "title": "Manuelle Dateneingabe",
+        "description": "Ihr Team verbringt Stunden damit, Informationen zwischen Tabellen, CRM und ERP zu kopieren und einzufügen – ein langsamer und fehleranfälliger Prozess."
+      },
+      "bottleneckProcesses": {
+        "title": "Prozesse mit Engpässen",
+        "description": "Wichtige Aufgaben bleiben stecken, weil sie auf eine manuelle Genehmigung oder darauf warten, dass jemand den nächsten Schritt ausführt."
+      },
+      "disconnectedTools": {
+        "title": "Isolierte Tools",
+        "description": "Sie investieren in die besten Tools, aber sie arbeiten isoliert und tauschen Daten nicht intelligent aus."
+      },
+      "lackOfAgility": {
+        "title": "Mangelnde Agilität",
+        "description": "Die Langsamkeit manueller Prozesse hindert Ihr Unternehmen daran, schnell auf Marktchancen und -anforderungen zu reagieren."
+      }
+    },
+    "beforeAfter": {
+      "title": "Die digitale Metamorphose",
+      "subtitle": "Von einem fragmentierten Betrieb zu einem effizienten, neuralen Ökosystem.",
+      "before": {
+        "title": "Vorher: Isolierte Systeme",
+        "sales": "Vertrieb",
+        "financial": "Finanzen",
+        "manual": "MANUELL",
+        "errors": "FEHLER"
+      },
+      "after": {
+        "title": "Nachher: Integriertes Ökosystem",
+        "api": "API",
+        "automation": "AUTOMATISIERUNG"
+      }
+    },
+    "results": {
+      "title": "Verwandeln Sie Routine in Ergebnisse",
+      "subtitle": "Ihr Team konzentriert sich auf das Wesentliche, während die Prozesse von selbst laufen."
+    },
+    "stats": {
+      "hoursFreed": "Freigesetzt für strategische Aufgaben",
+      "errorReduction": "Reduzierung von Nacharbeit und Fehlern",
+      "deliverySpeed": "Schnellere Auslieferung",
+      "alwaysActive": "Betrieb rund um die Uhr"
+    },
+    "finalCta": {
+      "title": "Bereit für die Zukunft Ihres Betriebs?",
+      "subtitle": "Überlassen Sie die repetitive Arbeit den Robotern. Lassen Sie uns darüber sprechen, wie Automatisierung das Potenzial Ihres Teams freisetzen kann.",
+      "ctaButton": "Automatisierungsanalyse vereinbaren"
+    }
+  },
+  "FooterAry": {
+    "description": "Ideen in echte Technologie verwandeln. Wir schaffen digitale Lösungen, die verkaufen, Wirkung zeigen und skalieren.",
+    "contact": {
+      "email": "E-Mail",
+      "phone": "Telefon"
+    },
+    "sections": {
+      "solutions": "Lösungen",
+      "company": "Unternehmen"
+    },
+    "solutions": {
+      "saas": "SaaS",
+      "mobileApps": "Mobile Apps",
+      "softwareDevelopment": "Softwareentwicklung",
+      "corporateSolutions": "Unternehmenslösungen",
+      "webEcommerce": "Web & E-Commerce",
+      "integrationsAutomations": "Integrationen & Automatisierungen"
+    },
+    "company": {
+      "aboutUs": "Über uns",
+      "supportCenter": "Support-Center",
+      "vacancies": "Stellenangebote",
+      "becomePartner": "Partner werden",
+      "blog": "Blog",
+      "faq": "FAQ"
+    },
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "AboutUsPage": {
+    "hero": {
+      "title": "Wir sind die Architekten Ihrer digitalen Zukunft.",
+      "subtitle": "Bei ayrCore erstellen wir nicht nur Software. Wir bauen die Grundlagen für Ihr Wachstum und verwandeln Ihre Vision in Technologie, die Ergebnisse liefert."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "paragraph1": "Wir sind aus der Überzeugung entstanden, dass Technologie ein Hebel für den Erfolg sein sollte, keine Barriere. Unsere Mission ist es, den Zugang zu modernsten digitalen Lösungen zu demokratisieren, damit Unternehmen jeder Größe in einem zunehmend vernetzten Markt konkurrieren können.",
+      "paragraph2": "Jedes Projekt ist eine Partnerschaft. Wir tauchen in Ihr Geschäft ein, um Ihre Herausforderungen zu verstehen und eine Lösung zu liefern, die nicht nur Probleme löst, sondern auch neue Möglichkeiten schafft."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "innovation": {
+        "title": "Kontinuierliche Innovation",
+        "description": "Wir erforschen ständig neue Technologien, um sicherzustellen, dass unsere Lösungen an der Spitze des Marktes stehen."
+      },
+      "partnership": {
+        "title": "Echte Partnerschaft",
+        "description": "Ihr Erfolg ist unser Erfolg. Wir arbeiten in jeder Phase des Projekts Seite an Seite mit Ihnen."
+      },
+      "quality": {
+        "title": "Qualität und Vertrauen",
+        "description": "Wir liefern robuste, sichere und getestete Produkte, um die Ruhe Ihres Unternehmens zu gewährleisten."
+      }
+    },
+    "manifesto": {
+      "mainTitle": {
+        "part1": "Unsere",
+        "part2": "Philosophie"
+      },
+      "subtitle": "Dies sind die Überzeugungen, die uns antreiben, die Prinzipien, die uns definieren, und die Vision, die uns in die digitale Zukunft führt.",
+      "beliefs": {
+        "technology": {
+          "title": "Wir glauben an die Kraft der Technologie",
+          "description": "Technologie ist nicht nur Code – sie ist die Brücke zwischen Träumen und Realität. Jede Zeile, die wir schreiben, birgt das Potenzial, Unternehmen zu transformieren und Leben zu beeinflussen."
+        },
+        "simplicity": {
+          "title": "Einfachheit ist Raffinesse",
+          "description": "Die besten Lösungen sind jene, die das Komplexe einfach erscheinen lassen. Wir schaffen intuitive Erlebnisse, die die Technologie verschwinden lassen, damit Ihr Unternehmen glänzen kann."
+        }
+      },
+      "quote": {
+        "text": "Wir bauen nicht nur Software. Wir bauen die Zukunft, eine Codezeile nach der anderen.",
+        "author": "— Das ayrCore-Team"
+      }
+    },
+    "principles": {
+      "evolution": {
+        "title": "Konstante Evolution",
+        "description": "Wir hören nie auf zu lernen. Die digitale Welt entwickelt sich schnell, und wir entwickeln uns mit ihr."
+      },
+      "impact": {
+        "title": "Echter Einfluss",
+        "description": "Wir messen den Erfolg an dem Einfluss, den wir auf Ihre Ergebnisse und das Leben Ihrer Benutzer haben."
+      },
+      "partnership": {
+        "title": "Echte Partnerschaft",
+        "description": "Wir sind nicht nur Lieferanten – wir sind Partner, die sich Ihrem langfristigen Wachstum verschrieben haben."
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihr Unternehmen zu transformieren?",
+      "description": "Lassen Sie uns darüber sprechen, wie wir die Zukunft Ihres Unternehmens gemeinsam aufbauen können.",
+      "button": "Gespräch beginnen"
+    }
+  }
+}

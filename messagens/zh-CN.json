@@ -1,0 +1,916 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "将想法<br/>转化为数字现实",
+      "description": "我们是创建定制软件解决方案的专家，从移动应用程序到复杂系统，为您的业务提供动力。",
+      "formButton": "立即开始",
+      "formPlaceholder": "您的最佳电子邮件",
+      "logoAlt": "ayrCore 标志",
+      "dashboardVideoFallback": "您的仪表板视频在这里",
+      "mobileVideoFallback": "您的手机视频在这里"
+    },
+    "services": {
+      "mobile": {
+        "title": "移动应用程序",
+        "description": "我们为 iOS 和 Android 开发原生和混合应用程序，专注于性能和用户体验。"
+      },
+      "corporate": {
+        "title": "企业系统",
+        "description": "使用强大、安全且完全定制的管理系统（ERP、CRM）优化您的流程。"
+      },
+      "software": {
+        "title": "定制软件",
+        "description": "我们创建您的公司解决独特挑战和提高效率所需的确切工具。"
+      },
+      "saas": {
+        "title": "SaaS 平台",
+        "description": "我们构建和扩展为全球市场准备的 SaaS（软件即服务）产品。"
+      },
+      "web": {
+        "title": "网站开发",
+        "description": "从机构网站到复杂的网络应用程序，我们使用尖端技术构建您的在线形象。"
+      },
+      "automation": {
+        "title": "流程自动化",
+        "description": "通过自动化手动和重复性任务来降低成本并提高生产力。"
+      }
+    },
+    "phrase": "每一行代码中的创新",
+    "advancedServices": {
+      "blockchain": {
+        "title": "区块链",
+        "description": "开发智能合约、游戏和具有随机艺术的非同质化代币（NFTs）。"
+      },
+      "ai": {
+        "title": "人工智能",
+        "description": "自然语言处理、图像分析、模式识别和面向业务的人工智能。"
+      },
+      "games": {
+        "title": "世界级游戏",
+        "description": "任何规模、位置或平台上的艺术游戏，具有世界级图形。"
+      },
+      "native": {
+        "title": "原生应用",
+        "description": "在 App Store、Play Store 和华为应用市场接触您的受众。"
+      },
+      "design": {
+        "title": "现代与优雅设计",
+        "description": "我们在我们提供的所有服务中都使用独特、现代和有吸引力的设计。"
+      },
+      "systems": {
+        "title": "内部系统",
+        "description": "无论您的系统是什么，我们都将其视为一个价值百万美元的项目。"
+      }
+    },
+    "quote": {
+      "text": "“如果你想成功，<br />你需要有完全的奉献精神，<br />寻求你的最终极限，<br />并永远付出你最好的。”",
+      "author": "— 埃尔顿·塞纳",
+      "title": "一级方程式传奇"
+    }
+  },
+  "Navbar": {
+    "features": "功能",
+    "solutions": "解决方案",
+    "about": "关于我们",
+    "contact_button": "联系我们",
+    "dropdown": {
+      "support_center": {
+        "title": "支持中心",
+        "desc": "查找帮助和教程。"
+      },
+      "vacancies": {
+        "title": "职位招聘",
+        "desc": "加入我们的团队。"
+      },
+      "become_a_partner": {
+        "title": "成为合作伙伴",
+        "desc": "探索合作机会。"
+      },
+      "blog": {
+        "title": "博客",
+        "desc": "文章、新闻和教程。"
+      },
+      "faq": {
+        "title": "常见问题",
+        "desc": "常见问题的解答。"
+      },
+      "saas": {
+        "title": "SaaS平台",
+        "desc": "面向市场的可扩展解决方案。"
+      },
+      "mobile_application_creation": {
+        "title": "应用创建",
+        "desc": "原生和混合移动应用。"
+      },
+      "software_development": {
+        "title": "软件开发",
+        "desc": "满足您需求的定制系统。"
+      },
+      "corporate_solutions": {
+        "title": "企业解决方案",
+        "desc": "优化您的业务管理。"
+      },
+      "web_development": {
+        "title": "网站开发",
+        "desc": "高性能网站和网络应用。"
+      },
+      "integrations": {
+        "title": "集成与自动化",
+        "desc": "连接系统并实现流程自动化。"
+      }
+    }
+  },
+  "SupportCenterPage": {
+    "hero": {
+      "title_support_center": "我们能如何帮助您？",
+      "description_support_center": "查找关于我们的流程、服务和支持的答案。如果您找不到所需信息，我们的团队随时准备与您交谈。"
+    },
+    "faq_suport_center_title": "常见问题",
+    "faq_suport_center_descrition": "为我们客户最常见问题提供的解答。",
+    "contact": {
+      "title_suport_center": "仍需要帮助吗？",
+      "description_suport_center": "我们的专家团队已准备好将您的想法变为现实。请与我们联系。"
+    },
+    "categories": {
+      "process": {
+        "title": "我们的工作流程",
+        "description": "每个项目都经过明确的规划、设计、开发和测试阶段，确保按时交付高质量的产品。"
+      },
+      "solutions": {
+        "title": "定制解决方案",
+        "description": "我们专注于创建定制软件、网站和应用程序，以解决实际问题并推动您的业务发展。"
+      },
+      "support": {
+        "title": "发布后支持",
+        "description": "我们提供保修和持续的维护计划，以确保您的数字解决方案始终保持安全、更新和正常运行。"
+      },
+      "partnership": {
+        "title": "合作与透明",
+        "description": "我们与您并肩工作。沟通是持续的，每个提案都详细说明，让您对项目充满信心。"
+      }
+    },
+    "faq": {
+      "software": {
+        "question": "你们开发哪种软件？",
+        "answer": "我们专注于根据您的业务需求定制软件，包括管理系统（ERP、CRM）、流程自动化和SaaS平台，始终致力于优化您的运营。"
+      },
+      "sites": {
+        "question": "你们创建任何类型的网站吗？",
+        "answer": "是的。我们开发从落地页和企业网站到复杂门户和强大的电子商务网站的所有内容。我们所有的网站都是响应式的（适配移动设备）并为谷歌（SEO）进行了优化。"
+      },
+      "apps": {
+        "question": "你们为哪些操作系统开发应用程序？",
+        "answer": "我们为主要系统开发：iOS（苹果）和Android（谷歌）。我们创建原生应用以实现最佳性能，或创建跨平台应用以优化成本和开发时间。"
+      },
+      "cost": {
+        "question": "一个项目需要多少钱，需要多长时间？",
+        "answer": "成本和时间表取决于每个项目的复杂性和范围。在初步沟通了解您的需求后，我们会准备一份详细透明的提案，其中包含时间表和投资。"
+      },
+      "support": {
+        "question": "项目交付后你们提供支持吗？",
+        "answer": "当然。我们的合作关系不会在项目启动时结束。所有项目都包含保修期，我们提供持续的支持和维护计划，以确保您平台的长久运行。"
+      }
+    }
+  },
+  "PartnersPage": {
+    "hero": {
+      "title": "加入我们，共筑未来。",
+      "description": "ayrCore 合作伙伴计划旨在将协作转化为增长。",
+      "ctaButton": "成为合作伙伴"
+    },
+    "partnerTypesSection": {
+      "title": "为您量身打造的合作伙伴计划",
+      "subtitle": "无论您的商业模式如何，我们都有合作的方式。"
+    },
+    "partnerTypes": {
+      "agencies": {
+        "title": "代理机构与咨询公司",
+        "description": "通过为您的客户提供定制软件解决方案来扩展您的产品组合。"
+      },
+      "developers": {
+        "title": "开发者与自由职业者",
+        "description": "协作开展具有高影响力的项目，并以专业的结构巩固您的合同。"
+      },
+      "techCompanies": {
+        "title": "科技公司",
+        "description": "将我们的解决方案集成到您的平台中，创建完整且可扩展的生态系统。"
+      }
+    },
+    "benefitsSection": {
+      "title": "成为 ayrCore 合作伙伴的优势",
+      "subtitle": "旨在最大化我们合作伙伴关系成功的独家权益。"
+    },
+    "benefits": {
+      "commissions": {
+        "title": "有竞争力的佣金",
+        "description": "为每个推荐的客户和完成的项目获得可观的百分比佣金。"
+      },
+      "support": {
+        "title": "技术与商务支持",
+        "description": "依靠我们的团队协助您进行演示、提案和项目执行。"
+      },
+      "comarketing": {
+        "title": "联合营销与曝光",
+        "description": "参与联合营销活动、网络研讨会，并在我们的沟通渠道上获得曝光。"
+      }
+    }
+  },
+  "FAQPage": {
+    "hero": {
+      "title": "常见问题",
+      "description": "在此查找关于我们服务与流程的最常见问题的快速解答。"
+    },
+    "faq": {
+      "specialty": {
+        "question": "ayrCore 的专长是什么？",
+        "answer": "我们的专长是定制软件开发，从移动应用到复杂的企业系统。我们采用现代技术和敏捷方法论，创造出能真正解决每个客户具体问题的解决方案。"
+      },
+      "process": {
+        "question": "开发流程是怎样的？",
+        "answer": "我们的流程是协作且透明的，分为4个主要阶段：1) 发现与规划，2) 设计与原型制作，3) 开发与测试，4) 发布与支持。您将跟进每个阶段并积极参与决策。"
+      },
+      "cost": {
+        "question": "开发一个软件或应用程序需要多少钱？",
+        "answer": "项目的成本因复杂性、所需功能和使用的技术而有很大差异。在初次沟通了解您的需求后，我们会准备一份详细透明的报价，其中包含费用和时间表。"
+      },
+      "tracking": {
+        "question": "我可以跟踪我的项目进度吗？",
+        "answer": "是的！透明是我们的核心价值观之一。您将可以访问一个平台，实时跟踪项目进度，查看已完成的任务，并参加我们团队定期的状态会议。"
+      },
+      "support": {
+        "question": "发布后你们提供维护和支持吗？",
+        "answer": "当然。我们提供持续的支持和维护计划，以确保您的解决方案保持安全、更新和顺畅运行。所有项目都包含初始保修期。"
+      },
+      "technologies": {
+        "question": "你们使用哪些技术？",
+        "answer": "我们使用市场上所有现代技术：React、Node.js、Python、Flutter、React Native、AWS、Docker、PostgreSQL、MongoDB 等等。我们根据每个项目的具体要求选择理想的技术栈。"
+      }
+    },
+    "cta": {
+      "title": "仍有疑问？",
+      "description": "我们的团队随时准备与您讨论项目的具体细节。",
+      "button": "联系我们"
+    }
+  },
+  "CareersPage": {
+    "hero": {
+      "title": "与我们一起共建技术的未来。",
+      "description": "我们一直在寻找有才华、充满好奇心和对创新充满热情的人，加入我们创造影响世界的解决方案的使命。"
+    },
+    "culture": {
+      "title": "为什么选择我们？",
+      "subtitle": "我们相信，一支卓越的团队才能打造出卓越的产品。",
+      "innovation": {
+        "title": "持续创新",
+        "description": "在充满挑战的项目中使用尖端技术。"
+      },
+      "collaboration": {
+        "title": "协作文化",
+        "description": "我们共同努力以取得巨大成果。"
+      },
+      "impact": {
+        "title": "真实影响",
+        "description": "我们为客户和社会创造真正的价值。"
+      }
+    },
+    "jobs": {
+      "title": "开放职位",
+      "available": "查看下面的可用职位。",
+      "noOpenings": "感谢您的关注！目前，我们没有开放职位。",
+      "apply": "申请",
+      "noOpeningsTitle": "暂无开放职位",
+      "talentPoolMessage": "将您的简历提交到我们的人才库。"
+    },
+    "cta": {
+      "title": "想成为团队的一员吗？",
+      "description": "我们随时欢迎优秀人才的加入。如果您相信自己能为我们的团队增添价值，我们很乐意与您会面。",
+      "emailLabel": "请将您的简历发送至："
+    }
+  },
+  "saas": {
+    "hero": {
+      "title": "将您的想法转化为成功的 SaaS",
+      "subtitle": "我们不仅仅是开发人员。我们是您的战略合作伙伴...",
+      "cta": "与专家交谈"
+    },
+    "approach": {
+      "title": "从验证到规模化：与我们一起的 SaaS 之旅",
+      "description": "我们将愿景转化为成功的产品。"
+    },
+    "expertise": {
+      "scalableArchitecture": {
+        "title": "可扩展和云原生架构",
+        "description": "我们使用现代化、灵活的基础设施构建您的 SaaS，确保性能、高可用性和无缝云集成。"
+      },
+      "experienceDesign": {
+        "title": "专注于留存的体验设计",
+        "description": "我们创建直观且吸引人的界面，以提高可用性并建立用户忠诚度。"
+      },
+      "monetizationStrategies": {
+        "title": "智能变现策略",
+        "description": "我们集成高效的支付解决方案，以增加收入并提供安全、流畅的购买体验。"
+      },
+      "security": {
+        "title": "安全是绝对的优先事项",
+        "description": "我们通过加密、高级身份验证和符合国际标准来保护数据。"
+      }
+    },
+    "methodology": {
+      "title": "我们久经考验的成功方法论",
+      "description": "我们遵循一个经过验证的流程...",
+      "immersionStrategy": {
+        "title": "1. 沉浸和策略",
+        "description": "我们分析您的商业模式和目标，以制定个性化的技术方案，并提供清晰的成功指标和战略对齐。"
+      },
+      "designPrototyping": {
+        "title": "2. UX/UI 设计和原型制作",
+        "description": "我们根据用户研究开发交互式原型，测试和完善每个流程，以确保直观性和参与度。"
+      },
+      "agileDevelopment": {
+        "title": "3. 敏捷开发",
+        "description": "我们使用敏捷方法实施解决方案，专注于整洁的代码、可扩展的架构以及与您系统的无缝集成。"
+      },
+      "launchEvolution": {
+        "title": "4. 发布和演进",
+        "description": "我们管理整个部署基础设施和持续优化，并进行持续监控以保持您的解决方案的竞争力。"
+      }
+    },
+    "technology": {
+      "title": "为您的产品提供尖端技术",
+      "description": "我们掌握了完整的技术生态系统...",
+      "icons": {
+        "frontend": "前端",
+        "backend": "后端",
+        "database": "数据库",
+        "cloud": "云",
+        "mobile": "移动",
+        "devops": "DevOps 和基础设施"
+      }
+    },
+    "finalCta": {
+      "title": "准备好构建下一个伟大的 SaaS 了吗？",
+      "description": "您的愿景值得完美执行...",
+      "button": "免费验证您的想法"
+    }
+  },
+  "SoftwareDevelopmentPage": {
+    "hero": {
+      "title": "为独特挑战量身定制软件",
+      "description": "我们超越代码。我们构建的软件解决方案能优化运营、集成系统，并为您的业务创造真正的竞争优势。",
+      "cta": "安排需求分析"
+    },
+    "painPoints": {
+      "sectionTitle": "您的公司是否面临这些挑战？",
+      "sectionSubtitle": "现成的软件并不总能解决特定问题。我们为您的需求创建精确的解决方案。",
+      "legacy": {
+        "title": "遗留和过时的软件",
+        "description": "维护成本高昂、不安全且跟不上公司发展的旧系统。"
+      },
+      "disconnected": {
+        "title": "系统孤岛",
+        "description": "信息被困在孤岛中，阻碍了业务的360度全景视图和决策制定。"
+      },
+      "manual": {
+        "title": "手动和缓慢的流程",
+        "description": "重复性任务消耗时间、产生-成本，并且容易出现人为错误。"
+      },
+      "data": {
+        "title": "决策数据缺失",
+        "description": "无法实时提取和可视化重要的KPI，以进行战略管理。"
+      }
+    },
+    "partnership": {
+      "title": "战略合作伙伴，而不仅仅是供应商",
+      "description": "我们最大的不同之处在于深入了解您的业务。我们理解您的规则、工作流程和目标，以构建一个能产生真实、可衡量价值的解决方案。",
+      "features": {
+        "analysis": {
+          "strong": "需求分析：",
+          "text": "深入的流程映射。"
+        },
+        "roi": {
+          "strong": "关注投资回报率：",
+          "text": "以结果和投资回报为导向的开发。"
+        },
+        "methodology": {
+          "strong": "敏捷方法论：",
+          "text": "快速交付、持续反馈和完全透明。"
+        }
+      }
+    },
+    "values": {
+      "title": "我们的价值观",
+      "description": "即使没有丰富的项目经验，我们相信任何成功项目的基础都源于我们的价值观。",
+      "items": {
+        "innovation": {
+          "title": "创新",
+          "description": "我们始终寻求能够真正带来改变的创造性和技术性解决方案。"
+        },
+        "personalization": {
+          "title": "个性化",
+          "description": "每个企业都是独一无二的，软件应该反映这种独特性。"
+        },
+        "commitment": {
+          "title": "承诺",
+          "description": "我们在每个阶段都与您并肩作战，确保质量和按时交付。"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "您的运营可以更智能。我们开始吧？",
+      "description": "安排一次无义务的对话。让我们了解您的挑战，并为您公司的数字化转型设计路线。",
+      "cta": "联系架构师"
+    },
+    "mockup": {
+      "sidebar": {
+        "dashboard": "仪表板",
+        "openMenu": "打开菜单",
+        "closeMenu": "关闭菜单"
+      },
+      "chart": {
+        "months": {
+          "jan": "一月",
+          "feb": "二月",
+          "mar": "三月",
+          "apr": "四月",
+          "may": "五月",
+          "jun": "六月"
+        }
+      },
+      "header": {
+        "title": "分析仪表板",
+        "subtitle": "结果和绩效概览。",
+        "newTask": "新任务"
+      },
+      "kpis": {
+        "vsLastMonth": "与上月相比",
+        "items": {
+          "projectRoi": "项目投资回报率",
+          "operationalEfficiency": "运营效率",
+          "completedTasks": "已完成任务"
+        }
+      },
+      "tasks": {
+        "priorityTasks": "优先任务",
+        "viewAll": "查看全部",
+        "markAsCompleted": "标记为已完成",
+        "markAsNotCompleted": "标记为未完成",
+        "taskOptions": "任务选项",
+        "items": {
+          "clientAnalysis": "客户X需求分析",
+          "billingModule": "计费模块开发"
+        },
+        "status": {
+          "completed": "已完成",
+          "inProgress": "进行中",
+          "pending": "待处理"
+        },
+        "priority": {
+          "high": "高",
+          "medium": "中",
+          "low": "低"
+        }
+      }
+    }
+  },
+  "webDevelopment": {
+    "hero": {
+      "title": "您的企业应得的数字橱窗",
+      "subtitle": "我们创建能够建立权威的机构网站和将访客转化为客户的高性能在线商店。",
+      "cta": "启动您的网站项目"
+    },
+    "pillars": {
+      "sectionTitle": "一个成功的网站项目的基础",
+      "design": {
+        "title": "战略性设计与用户体验/用户界面 (UX/UI)",
+        "description": "我们创建的布局不仅美观，还能引导用户清晰地浏览，反映您的品牌形象并专注于您的目标。"
+      },
+      "seo": {
+        "title": "搜索引擎优化 (SEO)",
+        "description": "我们为每个网站构建坚实的技术基础，以便谷歌和其他搜索引擎能够找到并良好地排名您的页面，吸引自然流量。"
+      },
+      "performance": {
+        "title": "高性能与速度",
+        "description": "一个缓慢的网站会赶走客户。我们优化图像、代码和服务器，以确保您的页面加载迅速，从而改善用户体验和搜索引擎优化。"
+      },
+      "responsive": {
+        "title": "100% 响应式设计",
+        "description": "我们保证在任何屏幕上都有完美的体验，无论是在台式机、平板电脑还是智能手机上。您的业务在任何地方都将无可挑剔。"
+      }
+    },
+    "solutions": {
+      "title": "针对每个目标的网站解决方案",
+      "institutional": {
+        "title": "机构网站和登录页面",
+        "subtitle": "用于建立权威和产生潜在客户。",
+        "description": "第一印象至关重要。我们开发的网站能够传达专业精神，讲述您的故事，并将访客转化为合格的联系人。",
+        "features": [
+          "与您的品牌一致的独特设计",
+          "内容管理系统 (CMS)",
+          "为潜在客户生成而优化"
+        ]
+      },
+      "ecommerce": {
+        "title": "高转化率的在线商店",
+        "subtitle": "为了销售更多并扩展您的业务。",
+        "description": "我们创建安全、快速且具有无缝购物体验的电子商务平台，旨在减少购物车放弃率并增加您的销售额。",
+        "features": [
+          "与安全支付网关集成",
+          "轻松管理产品、库存和订单",
+          "专注于转化率优化 (CRO)"
+        ]
+      }
+    },
+    "showcase": {
+      "title": "看看您的网站如何变得生动",
+      "subtitle": "我们如何提供适应所有设备的现代视觉解决方案的示例。",
+      "loading": "正在加载模型...",
+      "hiddenOnMobile": "为了性能，桌面模型在小屏幕上隐藏"
+    },
+    "finalCta": {
+      "title": "准备好启动或重塑您的在线形象了吗？",
+      "subtitle": "无论您面临何种挑战，我们的团队都准备好构建能够将您的业务提升到新水平的网站解决方案。",
+      "cta": "与我们的网站专家交谈"
+    },
+    "coffeeShop": {
+      "brand": "咖啡",
+      "title": "咖啡店",
+      "subtitle": "探索由精选咖啡豆制成的正宗咖啡风味。",
+      "description": "每一口都是独特的体验。",
+      "nav": {
+        "home": "首页",
+        "menu": "菜单",
+        "promotions": "促销",
+        "contact": "联系我们"
+      },
+      "search": "搜索",
+      "orderOnline": "在线订购",
+      "favorites": "收藏",
+      "icedCoffees": "冰咖啡",
+      "categories": {
+        "hotCoffees": "热咖啡",
+        "hotShort": "热饮",
+        "specials": "特色",
+        "snacks": "小吃"
+      },
+      "viewMenu": "查看菜单",
+      "loading": "正在加载...",
+      "openMenu": "打开菜单"
+    }
+  },
+  "AppDevelopmentPage": {
+    "hero": {
+      "title": "打造用户钟爱的应用程序",
+      "description": "从草稿到应用商店。我们将您的愿景转化为高性能的iOS和Android应用程序，以促进用户参与、解决问题并推动您的业务发展。",
+      "cta": "将您的想法变为现实"
+    },
+    "approach": {
+      "title": "不只是应用，更是完整的体验。",
+      "description": "我们的方法论涵盖了所有关键方面，确保您的应用程序不仅功能齐全，而且能在市场上取得成功。",
+      "items": {
+        "design": {
+          "title": "引人入胜的UX/UI设计",
+          "description": "我们设计直观且视觉上吸引人的界面，专注于用户旅程，确保提供难忘且易于使用的体验。"
+        },
+        "development": {
+          "title": "原生 (iOS/Android) 和混合开发",
+          "description": "我们采用最适合您项目的技术进行开发，无论是追求最佳性能的原生开发，还是优化时间和成本的混合开发 (React Native)。"
+        },
+        "performance": {
+          "title": "性能与优化",
+          "description": "我们构建的应用快速、响应灵敏且高效，消耗最少的电池和数据，并在各种设备上表现良好。"
+        },
+        "integration": {
+          "title": "稳健的后端集成",
+          "description": "我们将您的应用程序连接到任何现有系统、数据库或API，确保数据安全、一致地流动。"
+        }
+      }
+    },
+    "process": {
+      "title": "我们的开发之旅",
+      "description": "一个从概念到发布的透明协作过程。",
+      "steps": {
+        "strategy": {
+          "title": "策略",
+          "description": "深入了解您的想法，进行市场分析并定义关键绩效指标 (KPI)。"
+        },
+        "design": {
+          "title": "UX/UI设计",
+          "description": "创建线框图、可交互原型和视觉设计。"
+        },
+        "development": {
+          "title": "开发",
+          "description": "敏捷编码、严格测试和质量保证。"
+        },
+        "launch": {
+          "title": "发布",
+          "description": "在应用商店发布并提供发布后支持。"
+        }
+      }
+    },
+    "concept": {
+      "title": "从概念到现实",
+      "description": "为了展示我们的方法、质量和对细节的关注，我们创建了一个概念项目，以反映我们对卓越的承诺。",
+      "commitmentTitle": "我们对您成功的承诺",
+      "commitmentDescription": "我们构建的不仅仅是代码，更是合作伙伴关系。每个项目都是创造非凡事物的机会，以下是保证我们工作质量的基石：",
+      "commitments": {
+        "userCentered": {
+          "title": "以用户为中心的设计",
+          "description": "我们创建的界面不仅美观，而且直观易用，确保最佳体验。"
+        },
+        "cleanCode": {
+          "title": "整洁且可扩展的代码",
+          "description": "我们编写健壮且文档齐全的代码，使您的应用程序在未来能够轻松扩展，无后顾之憂。"
+        },
+        "communication": {
+          "title": "透明的沟通",
+          "description": "您将始终了解项目进展。我们坚信在整个项目过程中保持清晰、持续的沟通。"
+        }
+      },
+      "contactLink": "让我们聊聊您的想法"
+    },
+    "finalCta": {
+      "title": "准备好在屏幕上看到您的想法了吗？",
+      "description": "我们的团队已准备好投入您的项目，并将其转变为成功的应用程序。首次沟通由我们承担费用。",
+      "cta": "请求报价"
+    }
+  },
+  "AppMockup": {
+    "header": {
+      "title": "今日任务"
+    },
+    "calendar": {
+      "month": "五月",
+      "weekdays": {
+        "tue": "周二",
+        "wed": "周三",
+        "thu": "周四",
+        "fri": "周五"
+      }
+    },
+    "tabs": {
+      "all": "全部",
+      "inProgress": "进行中",
+      "completed": "已完成"
+    },
+    "tasks": {
+      "status": {
+        "completed": "已完成",
+        "inProgress": "进行中"
+      },
+      "items": {
+        "financeRedesign": {
+          "title": "“我的财务”应用重新设计",
+          "description": "在Figma中制作高保真可交互原型。"
+        },
+        "usabilityTest": {
+          "title": "“我的财务”应用重新设计",
+          "description": "安排与关键用户的可用性测试。"
+        },
+        "alignmentMeeting": {
+          "title": "进度同步会议：“我的财务”项目状态",
+          "description": "准备会议材料。"
+        }
+      }
+    },
+    "floatingButton": {
+      "label": "添加新任务"
+    }
+  },
+  "CorporateSolutionsPage": {
+    "hero": {
+      "title": "技术即是竞争优势",
+      "subtitle": "对于寻求市场领先地位的公司而言，仅拥有技术是不够的。您需要一个智能化的数字生态系统。我们为您构建。",
+      "ctaButton": "预约战略咨询"
+    },
+    "pillars": {
+      "sectionTitle": "企业转型支柱",
+      "sectionDescription": "我们的解决方案旨在应对您运营中最关键的挑战，并为整个价值链创造影响。",
+      "systemIntegration": {
+        "title": "系统集成 (ERP, CRM)",
+        "description": "我们将您的遗留系统和现代平台统一到一个内聚的生态系统中，消除数据孤岛，创建单一事实来源。"
+      },
+      "processAutomation": {
+        "title": "业务流程自动化 (BPA)",
+        "description": "我们规划并自动化从生产车间到财务部门的复杂工作流程，以降低成本、提高速度并最大限度地减少错误。"
+      },
+      "dataIntelligence": {
+        "title": "数据智能与商业智能(BI)",
+        "description": "我们将原始数据转化为战略仪表板和可行的见解，使领导层能够做出更明智、更快速的决策。"
+      },
+      "customPlatforms": {
+        "title": "定制化企业平台",
+        "description": "我们为您的公司开发中央操作系统——一个完全适应您业务规则的定制平台。"
+      }
+    },
+    "process": {
+      "sectionTitle": "您的愿景，我们的工程。全方位的合作伙伴关系。",
+      "sectionDescription": "我们深知企业项目是关键任务。我们的合作模式确保从始至终的战略一致性和卓越执行力。",
+      "diagnosis": {
+        "title": "诊断与沉浸：",
+        "description": "我们分析您的流程、挑战和目标，以设计一个能对您的损益表产生实际影响的解决方案。"
+      },
+      "architecture": {
+        "title": "架构与概念验证：",
+        "description": "我们创建解决方案的蓝图，并通过功能原型 (PoC) 来验证技术假设。"
+      },
+      "implementation": {
+        "title": "实施与治理：",
+        "description": "我们采用敏捷治理方式进行开发，确保项目可见性以及对进度和预算的控制。"
+      },
+      "support": {
+        "title": "支持与演进：",
+        "description": "我们提供持续的支持 (SLA) 和一个演进路线图，确保您的技术永不过时。"
+      }
+    },
+    "differentials": {
+      "sectionTitle": "为何选择ayrCore？",
+      "sectionDescription": "即便在首批案例诞生之前，我们的差异化优势已表明，我们准备好以卓越的技术和对成果的关注，将您的愿景变为现实。",
+      "seniorEngineering": {
+        "title": "从始至终的资深工程",
+        "description": "项目由经验丰富的工程师领导，他们优先考虑稳健性、可扩展性和性能。"
+      },
+      "transparency": {
+        "title": "过程完全透明",
+        "description": "通过仪表板、增量交付和在每个阶段的清晰沟通进行持续监控。"
+      },
+      "roiFocus": {
+        "title": "关注投资回报",
+        "description": "旨在降低成本、加速流程并创造真正竞争优势的解决方案。"
+      },
+      "userCenteredDesign": {
+        "title": "以用户为中心的设计",
+        "description": "工程与用户体验 (UX) 的结合，确保提供令用户愉悦的直观体验。"
+      },
+      "agilityQuality": {
+        "title": "敏捷且不失质量",
+        "description": "以严谨的技术应用敏捷方法，确保快速和可持续的交付。"
+      },
+      "innovation": {
+        "title": "致力于创新",
+        "description": "持续研究市场上最先进的技术，将真正的创新应用于您的业务。"
+      }
+    },
+    "finalCta": {
+      "title": "准备好引领数字化转型了吗？",
+      "subtitle": "让我们共同探讨技术如何解决您最复杂的挑战，并为您的公司未来定位。",
+      "button": "与解决方案总监对话"
+    }
+  },
+  "ThreeModelViewer": {
+    "loading": "加载中..."
+  },
+  "AutomationPage": {
+    "hero": {
+      "title": "连接。自动。掌控。",
+      "subtitle": "消除手动工作。我们构建桥梁 (API) 和工作流，让您的工具全天候 24/7 完美协调运作。",
+      "ctaButton": "优化您的运营"
+    },
+    "painPointsSection": {
+      "title": "您的运营是否感觉脱节？",
+      "subtitle": "如果您有以下症状，自动化将是您的下一个升级。"
+    },
+    "painPoints": {
+      "dataReentry": {
+        "title": "重复数据录入",
+        "description": "您的团队花费数小时在电子表格、CRM 和 ERP 之间复制粘贴信息，这个过程缓慢且容易出错。"
+      },
+      "bottleneckProcesses": {
+        "title": "流程瓶颈",
+        "description": "重要任务因等待人工批准或等待他人执行下一步而停滞不前。"
+      },
+      "disconnectedTools": {
+        "title": "工具孤岛",
+        "description": "您投资了最好的工具，但它们却像孤岛一样运作，无法智能地共享数据。"
+      },
+      "lackOfAgility": {
+        "title": "缺乏敏捷性",
+        "description": "手动流程的缓慢阻碍了您的公司对市场机遇和需求做出快速响应。"
+      }
+    },
+    "beforeAfter": {
+      "title": "数字化蜕变",
+      "subtitle": "从碎片化的运营到高效的神经化生态系统。",
+      "before": {
+        "title": "之前：孤立的系统",
+        "sales": "销售",
+        "financial": "财务",
+        "manual": "手动",
+        "errors": "错误"
+      },
+      "after": {
+        "title": "之后：集成的生态系统",
+        "api": "API",
+        "automation": "自动化"
+      }
+    },
+    "results": {
+      "title": "将常规转化为成果",
+      "subtitle": "您的团队专注于真正重要的事情，而流程则自行运转。"
+    },
+    "stats": {
+      "hoursFreed": "解放出来用于战略任务",
+      "errorReduction": "减少返工和错误",
+      "deliverySpeed": "更快的交付速度",
+      "alwaysActive": "运营永不间断"
+    },
+    "finalCta": {
+      "title": "准备好迎接您运营的未来了吗？",
+      "subtitle": "将重复性工作交给机器人。让我们谈谈自动化如何释放您团队的潜力。",
+      "ctaButton": "预约自动化分析"
+    }
+  },
+  "FooterAry": {
+    "description": "将想法转化为真正的技术。我们创建销售、影响和扩展的数字解决方案。",
+    "contact": {
+      "email": "电子邮件",
+      "phone": "电话"
+    },
+    "sections": {
+      "solutions": "解决方案",
+      "company": "公司"
+    },
+    "solutions": {
+      "saas": "SaaS",
+      "mobileApps": "移动应用",
+      "softwareDevelopment": "软件开发",
+      "corporateSolutions": "企业解决方案",
+      "webEcommerce": "网络和电子商务",
+      "integrationsAutomations": "集成和自动化"
+    },
+    "company": {
+      "aboutUs": "关于我们",
+      "supportCenter": "支持中心",
+      "vacancies": "职位空缺",
+      "becomePartner": "成为合作伙伴",
+      "blog": "博客",
+      "faq": "常见问题"
+    },
+    "copyright": "保留所有权利。"
+  },
+  "AboutUsPage": {
+    "hero": {
+      "title": "我们是您数字未来的建筑师。",
+      "subtitle": "在 ayrCore，我们不只是创造软件。我们为您的成长奠定基础，将您的愿景转化为驱动成果的技术。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "paragraph1": "我们坚信技术应该是成功的杠杆，而不是障碍。我们的使命是普及尖端数字解决方案，让各种规模的企业都能在日益互联的市场中竞争。",
+      "paragraph2": "每个项目都是一次合作。我们深入您的业务，了解您的挑战，并提供一个不仅能解决问题，还能创造新机遇的解决方案。"
+    },
+    "values": {
+      "title": "我们的价值观",
+      "innovation": {
+        "title": "持续创新",
+        "description": "我们一直在探索新技术，以确保我们的解决方案处于市场前沿。"
+      },
+      "partnership": {
+        "title": "真正的伙伴关系",
+        "description": "您的成功就是我们的成功。在项目的每个阶段，我们都与您并肩工作。"
+      },
+      "quality": {
+        "title": "质量与信任",
+        "description": "我们提供稳健、安全和经过测试的产品，确保您的业务无忧。"
+      }
+    },
+    "manifesto": {
+      "mainTitle": {
+        "part1": "我们的",
+        "part2": "理念"
+      },
+      "subtitle": "这些是驱动我们的信念，定义我们的原则，并指引我们走向数字未来的愿景。",
+      "beliefs": {
+        "technology": {
+          "title": "我们相信技术的力量",
+          "description": "技术不仅仅是代码——它是梦想与现实之间的桥梁。我们编写的每一行代码都承载着改变企业和影响生活的潜力。"
+        },
+        "simplicity": {
+          "title": "简单即是复杂",
+          "description": "最好的解决方案是那些让复杂的事情看起来简单的。我们创造直观的体验，让技术消失，让您的业务闪耀。"
+        }
+      },
+      "quote": {
+        "text": "我们不只是构建软件。我们正在构建未来，一次一行代码。",
+        "author": "— ayrCore 团队"
+      }
+    },
+    "principles": {
+      "evolution": {
+        "title": "持续演进",
+        "description": "我们从不停止学习。数字世界发展迅速，我们也在随之演进。"
+      },
+      "impact": {
+        "title": "真实影响",
+        "description": "我们通过对您的成果和用户生活产生的影响来衡量成功。"
+      },
+      "partnership": {
+        "title": "真正的伙伴关系",
+        "description": "我们不只是供应商——我们是致力于您长期成长的合作伙伴。"
+      }
+    },
+    "cta": {
+      "title": "准备好改变您的业务了吗？",
+      "description": "让我们谈谈如何共同构建您公司的未来。",
+      "button": "开始对话"
+    }
+  }
+}
