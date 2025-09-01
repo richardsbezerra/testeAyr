@@ -16,8 +16,6 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const { locale } = await params; 
-
   return {
     title: 'ayrCore',
     description: 'Site corporativo multilíngue',
@@ -28,9 +26,9 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const { locale } = await params; // 👈 aqui sim, com await
+  const { locale } = await params;
 
-  // Valida se o locale existe
+  // ✅ CORREÇÃO: Converta para string ou use includes com type assertion
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
