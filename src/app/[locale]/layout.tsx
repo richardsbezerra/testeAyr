@@ -15,7 +15,8 @@ export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
+// ✅ CORREÇÃO 1: Remova o parâmetro não utilizado
+export async function generateMetadata() {
   return {
     title: 'ayrCore',
     description: 'Site corporativo multilíngue',
@@ -28,8 +29,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
-  // ✅ CORREÇÃO: Converta para string ou use includes com type assertion
-  if (!routing.locales.includes(locale as any)) {
+  // ✅ CORREÇÃO 2: Use uma alternativa ao 'any'
+  if (!routing.locales.some((l) => l === locale)) {
     notFound();
   }
 
