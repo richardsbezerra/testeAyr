@@ -1,10 +1,13 @@
 {
   "HomePage": {
     "hero": {
-      "title": "Ideen in<br/>digitale Realität<br/>verwandeln",
-      "description": "Wir sind Experten in der Erstellung maßgeschneiderter Softwarelösungen, von mobilen Apps bis hin zu komplexen Systemen, um Ihr Geschäft voranzutreiben.",
+      "title": "Maßgeschneiderte <br/> Digitale Innovation: <br/> Vom Konzept <br/> zur Realität",
+      "description": "Wir sind der ideale Partner, um Ihre Vision in die Realität umzusetzen. Wir entwickeln alles von intuitiven Anwendungen bis hin zu komplexen Automatisierungssystemen und sorgen dafür, dass Ihr Unternehmen im digitalen Umfeld erfolgreich ist.",
       "formButton": "Jetzt starten",
       "formPlaceholder": "Ihre beste E-Mail-Adresse",
+      "saveForm": "Wird gespeichert...",
+      "posForm": "Vielen Dank für Ihre Nachricht. Wir werden uns so schnell wie möglich bei Ihnen melden. 🤝",
+      "erroForm": "❌ Fehler",
       "logoAlt": "ayrCore Logo",
       "dashboardVideoFallback": "Ihr Dashboard-Video hier",
       "mobileVideoFallback": "Ihr Handy-Video hier"
@@ -63,7 +66,7 @@
       }
     },
     "quote": {
-      "text": "\"Wenn du erfolgreich sein<br />willst, musst du dich<br />vollkommen hingeben,<br />deine Grenzen<br />austesten und<br />immer dein Bestes geben.\"",
+      "text": "\"Wenn du erfolgreich sein willst, musst du dich vollkommen hingeben, deine Grenzen austesten und immer dein Bestes geben.\"",
       "author": "— Ayrton Senna",
       "title": "Formel-1-Legende"
     }
@@ -72,6 +75,7 @@
     "features": "Funktionen",
     "solutions": "Lösungen",
     "about": "Über uns",
+    "home": "Startseite",
     "contact_button": "Kontakt",
     "dropdown": {
       "support_center": {
@@ -911,6 +915,14 @@
       "title": "Bereit, Ihr Unternehmen zu transformieren?",
       "description": "Lassen Sie uns darüber sprechen, wie wir die Zukunft Ihres Unternehmens gemeinsam aufbauen können.",
       "button": "Gespräch beginnen"
+    }
+  },
+    "BlogComingSoonPage": {
+    "title": "Unser Blog kommt bald.",
+    "description": "Wir bereiten einen großartigen Bereich mit Artikeln, Einblicken und Neuigkeiten zu Technologie, Softwareentwicklung und Innovation vor. ayrCore bereitet etwas Besonderes für Sie vor.",
+    "links": {
+      "backToHome": "Zur Startseite",
+      "learnOurStory": "Unsere Geschichte kennenlernen"
     }
   }
 }

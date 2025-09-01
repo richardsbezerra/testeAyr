@@ -1,10 +1,13 @@
 {
   "HomePage": {
     "hero": {
-      "title": "将想法<br/>转化为数字现实",
-      "description": "我们是创建定制软件解决方案的专家，从移动应用程序到复杂系统，为您的业务提供动力。",
+      "title": "定制化数字创新： <br/> 从概念到现实",
+      "description": "我们是将您的愿景变为现实的理想合作伙伴。我们创造从直观的应用程序到复杂的自动化系统的一切，确保您的企业在数字环境中蓬勃发展。",
       "formButton": "立即开始",
       "formPlaceholder": "您的最佳电子邮件",
+      "saveForm": "正在保存...",
+      "posForm": "感谢您的联系。我们将尽快与您取得联系。🤝",
+      "erroForm": "❌ 错误",
       "logoAlt": "ayrCore 标志",
       "dashboardVideoFallback": "您的仪表板视频在这里",
       "mobileVideoFallback": "您的手机视频在这里"
@@ -63,7 +66,7 @@
       }
     },
     "quote": {
-      "text": "“如果你想成功，<br />你需要有完全的奉献精神，<br />寻求你的最终极限，<br />并永远付出你最好的。”",
+      "text": "“如果你想成功，你需要有完全的奉献精神，寻求你的最终极限，并永远付出你最好的。”",
       "author": "— 埃尔顿·塞纳",
       "title": "一级方程式传奇"
     }
@@ -72,6 +75,7 @@
     "features": "功能",
     "solutions": "解决方案",
     "about": "关于我们",
+    "home": "主页",
     "contact_button": "联系我们",
     "dropdown": {
       "support_center": {
@@ -911,6 +915,14 @@
       "title": "准备好改变您的业务了吗？",
       "description": "让我们谈谈如何共同构建您公司的未来。",
       "button": "开始对话"
+    }
+  },
+    "BlogComingSoonPage": {
+    "title": "我们的博客即将上线。",
+    "description": "我们正在准备一个精彩的空间，提供关于技术、软件开发和创新的文章、见解和新闻。ayrCore为您准备了一些特别的内容。",
+    "links": {
+      "backToHome": "返回首页",
+      "learnOurStory": "了解我们的故事"
     }
   }
 }

@@ -1,10 +1,13 @@
 {
   "HomePage": {
     "hero": {
-      "title": "Transforming Ideas<br/>into Digital Reality",
-      "description": "We specialize in creating custom software solutions, from mobile apps to complex systems, to boost your business.",
+      "title": "Custom Digital <br/> Innovation: From <br/> Concept to Reality",
+      "description": "We are the ideal partner to turn your vision into reality. We create everything from intuitive applications to complex automation systems, ensuring your business thrives in the digital environment.",
       "formButton": "Get Started Now",
       "formPlaceholder": "Your best email",
+      "saveForm": "Saving...",
+      "posForm": "Thank you for contacting us. We will get in touch with you as soon as possible. 🤝",
+      "erroForm": "❌ Error",
       "logoAlt": "ayrCore Logo",
       "dashboardVideoFallback": "Your Dashboard Video Here",
       "mobileVideoFallback": "Your Mobile Video Here"
@@ -63,7 +66,7 @@
       }
     },
     "quote": {
-      "text": "\"If you want to be<br />successful, you need to have <br />total dedication, seek your <br />ultimate limit, and <br />always give your best.\"",
+      "text": "\"If you want to be successful, you need to have total dedication, seek your ultimate limit, and always give your best.\"",
       "author": "— Ayrton Senna",
       "title": "Formula 1 Legend"
     }
@@ -72,6 +75,7 @@
     "features": "Features",
     "solutions": "Solutions",
     "about": "About Us",
+    "home": "Home",
     "contact_button": "Contact Us",
     "dropdown": {
       "support_center": {
@@ -911,6 +915,14 @@
       "title": "Ready to Transform Your Business?",
       "description": "Let's talk about how we can build your company's future together.",
       "button": "Start Conversation"
+    }
+  },
+  "BlogComingSoonPage": {
+    "title": "Our Blog is Coming Soon.",
+    "description": "We are preparing an amazing space with articles, insights, and news about technology, software development, and innovation. ayrCore is cooking something special for you.",
+    "links": {
+      "backToHome": "Back to Home",
+      "learnOurStory": "Learn Our Story"
     }
   }
 }

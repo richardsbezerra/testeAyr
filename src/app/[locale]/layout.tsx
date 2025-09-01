@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import '@/globals.css';
 
 import NavibarAry from '@/components/layout/NavibarAry';
+import LoadingScreen from '@/components/ui/LoadingScreen'; // ⬅️ novo
 
 type Props = {
   children: React.ReactNode;
@@ -23,6 +24,9 @@ export async function generateMetadata() {
     alternates: {
       languages: Object.fromEntries(routing.locales.map((l) => [l, `/${l}`])),
     },
+    icons: {
+      icon: "/img/bolaGrande.svg",
+    }
   };
 }
 
@@ -40,6 +44,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <LoadingScreen /> {/* ⬅️ Loader no topo */}
           <NavibarAry />
           <main className="bg-gradient-to-br from-[#000d2e] via-[#0a1b3d] to-[#4a00e0]">
             {children}

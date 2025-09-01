@@ -1,10 +1,13 @@
 {
   "HomePage": {
     "hero": {
-      "title": "Transformer les Idées<br/>en Réalité Numérique",
-      "description": "Nous sommes des experts dans la création de solutions logicielles sur mesure, des applications mobiles aux systèmes complexes, pour dynamiser votre entreprise.",
+      "title": "Innovation Numérique <br/> sur Mesure : Du  <br/> Concept à la Réalité",
+      "description": "Nous sommes le partenaire idéal pour transformer votre vision en réalité. Nous créons des applications intuitives aux systèmes d'automatisation complexes, assurant la prospérité de votre entreprise dans l'environnement numérique.",
       "formButton": "Commencer maintenant",
       "formPlaceholder": "Votre meilleur email",
+      "saveForm": "Enregistrement en cours...",
+      "posForm": "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais. 🤝",
+      "erroForm": "❌ Erreur",
       "logoAlt": "Logo d'ayrCore",
       "dashboardVideoFallback": "Votre vidéo de tableau de bord ici",
       "mobileVideoFallback": "Votre vidéo mobile ici"
@@ -63,7 +66,7 @@
       }
     },
     "quote": {
-      "text": "\"Si vous voulez<br />réussir, vous devez<br />faire preuve d'un dévouement<br />total, chercher<br />votre dernière limite<br />et toujours donner le<br />meilleur de vous-même.\"",
+      "text": "\"Si vous voulez réussir, vous devez faire preuve d'un dévouement total, chercher votre dernière limite et toujours donner le meilleur de vous-même.\"",
       "author": "— Ayrton Senna",
       "title": "Légende de la Formule 1"
     }
@@ -72,6 +75,7 @@
     "features": "Fonctionnalités",
     "solutions": "Solutions",
     "about": "À Propos",
+    "home": "Accueil",
     "contact_button": "Nous Contacter",
     "dropdown": {
       "support_center": {
@@ -911,6 +915,14 @@
       "title": "Prêt à Transformer Votre Entreprise?",
       "description": "Parlons de la façon dont nous pouvons construire l'avenir de votre entreprise ensemble.",
       "button": "Démarrer la conversation"
+    }
+  },
+    "BlogComingSoonPage": {
+    "title": "Notre Blog arrive bientôt.",
+    "description": "Nous préparons un espace incroyable avec des articles, des idées et des nouveautés sur la technologie, le développement logiciel et l'innovation. ayrCore prépare quelque chose de spécial pour vous.",
+    "links": {
+      "backToHome": "Retour à l'accueil",
+      "learnOurStory": "Découvrez notre histoire"
     }
   }
 }

@@ -22,6 +22,7 @@ import {
   HiOutlineDocumentText,
   HiOutlineSparkles,
   HiOutlineChevronRight,
+  HiOutlineHome,
 } from 'react-icons/hi2';
 
 const icons = {
@@ -37,6 +38,7 @@ const icons = {
   'web-development': HiOutlineGlobeAlt,
   'integrations-and-automations': HiOutlineCog,
   'mobile-application-creation': HiOutlineDevicePhoneMobile,
+  'home': HiOutlineHome,
 };
 
 const getIconByHref = (href = '') => {
@@ -119,6 +121,7 @@ export default function NavibarAry() {
       ]
     },
     { href: '/about-us', label: t('about') },
+    { href: '/', label: t('home') }, // Added Home link
   ];
 
   const closeMobileMenu = useCallback(() => {
@@ -138,16 +141,16 @@ export default function NavibarAry() {
     }
   );
 
-const navInnerClasses = clsx(
-  'relative w-full max-w-[1600px] mx-auto flex items-center justify-between transition-all duration-300 mt-7',
-  'h-16 sm:h-18 lg:h-20',
-  'px-3 sm:px-6 lg:px-8 xl:px-[28px]', // Adicionado xl:px-[92px] para desktop
-  // Glassmorphism effect similar to ServiceCard
-  'rounded-xl shadow-2xl bg-slate-800/20 backdrop-blur-md border border-white/10',
-  {
-    'bg-slate-800/30 backdrop-blur-lg border-white/20': isScrolled,
-  }
-);
+  const navInnerClasses = clsx(
+    'relative w-full max-w-[1600px] mx-auto flex items-center justify-between transition-all duration-300 mt-7',
+    'h-16 sm:h-18 lg:h-20',
+    'px-3 sm:px-6 lg:px-8 xl:px-[28px]',
+    // Glassmorphism effect similar to ServiceCard
+    'rounded-xl shadow-2xl bg-slate-800/20 backdrop-blur-md border border-white/10',
+    {
+      'bg-slate-800/30 backdrop-blur-lg border-white/20': isScrolled,
+    }
+  );
 
   const renderNavLink = (link) => {
     if (link.items) {
@@ -233,6 +236,7 @@ const navInnerClasses = clsx(
     }
 
     // Links simples (sem dropdown)
+    const Icon = getIconByHref(link.href);
     return (
       <Link
         key={link.label}
@@ -241,6 +245,7 @@ const navInnerClasses = clsx(
                    text-lg sm:text-xl py-2.5 sm:py-3"
         onClick={closeMobileMenu}
       >
+        <Icon className="w-5 h-5 text-[#ff6d4d]" />
         <span>{link.label}</span>
       </Link>
     );
@@ -267,7 +272,7 @@ const navInnerClasses = clsx(
 
           {/* Desktop Navigation - Oculto até lg (1024px+) */}
           <div className="hidden lg:flex flex-1 gap-6 xl:gap-10 sm:ml-[-2rem]">
-            {navLinks.map(renderNavLink)}
+            {navLinks.slice(0, -1).map(renderNavLink)} {/* Exclude Home from desktop menu */}
           </div>
 
           {/* Language Switcher dentro do navbar */}
@@ -291,19 +296,19 @@ const navInnerClasses = clsx(
         <div className="hidden lg:flex items-center ml-4">
           <button
             className="
-    relative rounded-xl font-semibold shadow-2xl
-    bg-[#ff6d4d]/20 backdrop-blur-md border border-[#ff6d4d]/30
-    text-white hover:shadow-xl
-    hover:bg-[#ff6d4d]/30 hover:border-[#ff6d4d]/60
-    active:scale-95
-    transition-all duration-300
-    group
-    px-4 py-2 text-sm xl:px-9 xl:py-[15px] xl:text-base
-    before:absolute before:inset-0 before:rounded-xl
-    before:bg-gradient-to-r before:from-[#ff6d4d]/20 before:to-[#ff4d88]/20
-    before:opacity-0 before:transition-opacity before:duration-300
-    hover:before:opacity-100 mt-7
-  "
+              relative rounded-xl font-semibold shadow-2xl
+              bg-[#ff6d4d]/20 backdrop-blur-md border border-[#ff6d4d]/30
+              text-white hover:shadow-xl
+              hover:bg-[#ff6d4d]/30 hover:border-[#ff6d4d]/60
+              active:scale-95
+              transition-all duration-300
+              group
+              px-4 py-2 text-sm xl:px-9 xl:py-[15px] xl:text-base
+              before:absolute before:inset-0 before:rounded-xl
+              before:bg-gradient-to-r before:from-[#ff6d4d]/20 before:to-[#ff4d88]/20
+              before:opacity-0 before:transition-opacity before:duration-300
+              hover:before:opacity-100 mt-7
+            "
           >
             <span className="relative z-10 group-hover:text-[#ff6d4d] transition-colors duration-300">
               {t('contact_button')}
@@ -313,54 +318,52 @@ const navInnerClasses = clsx(
       </div>
 
       {/* Menu Mobile - Melhorado para tablets portrait */}
-      {isMobileMenuOpen && (
+      <div
+        className={clsx(
+          "lg:hidden fixed inset-0 h-screen w-screen bg-slate-900/95 backdrop-blur-md z-40 flex flex-col items-center justify-start overflow-y-auto transform transition-all duration-500 ease-in-out",
+          // Padding top responsivo para diferentes tamanhos
+          "pt-20 sm:pt-24",
+          // Padding horizontal responsivo
+          "px-4 sm:px-6",
+          isMobileMenuOpen
+            ? "opacity-100 translate-y-0 pointer-events-auto"
+            : "opacity-0 translate-y-full pointer-events-none"
+        )}
+        id="mobile-menu"
+        onClick={closeMobileMenu}
+      >
         <div
-          id="mobile-menu"
-          onClick={closeMobileMenu}
-          className={clsx(
-            "lg:hidden fixed inset-0 h-screen w-screen bg-slate-900/95 backdrop-blur-md z-40 flex flex-col items-center justify-start overflow-y-auto transform transition-all duration-500 ease-in-out",
-            // Padding top responsivo para diferentes tamanhos
-            "pt-20 sm:pt-24",
-            // Padding horizontal responsivo
-            "px-4 sm:px-6",
-            isMobileMenuOpen
-              ? "opacity-100 translate-y-0"
-              : "opacity-0 translate-y-full pointer-events-none"
-          )}
+          className="flex flex-col gap-2 sm:gap-4 w-full mx-auto pb-20 sm:pb-32
+                     max-w-sm sm:max-w-lg"
+          onClick={(e) => e.stopPropagation()}
         >
-          <div
-            className="flex flex-col gap-2 sm:gap-4 w-full mx-auto pb-20 sm:pb-32
-                       max-w-sm sm:max-w-lg"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {navLinks.map(renderMobileNavLink)}
+          {navLinks.map(renderMobileNavLink)}
 
-            {/* Seção de ações do mobile */}
-            <div className="border-t border-slate-700 w-full flex flex-col items-center gap-3 sm:gap-4 
-                            pt-4 sm:pt-6 mt-3 sm:mt-4">
-              <LanguageSwitcher />
-              <button
-                className="relative rounded-xl font-semibold shadow-2xl
-                          bg-slate-800/20 backdrop-blur-md border border-white/10
-                          text-white hover:shadow-xl
-                          hover:bg-slate-800/30 hover:border-[#ff6d4d]/50
-                          hover:scale-105 transition-all duration-300 active:scale-95
-                          group
-                          px-6 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base
-                          before:absolute before:inset-0 before:rounded-xl
-                          before:bg-gradient-to-r before:from-[#ff6d4d]/10 before:to-[#ff4d88]/10
-                          before:opacity-0 before:transition-opacity before:duration-300
-                          hover:before:opacity-100"
-                onClick={closeMobileMenu}
-              >
-                <span className="relative z-10 group-hover:text-[#ff6d4d] transition-colors duration-300">
-                  {t('contact_button')}
-                </span>
-              </button>
-            </div>
+          {/* Seção de ações do mobile */}
+          <div className="border-t border-slate-700 w-full flex flex-col items-center gap-3 sm:gap-4 
+                          pt-4 sm:pt-6 mt-3 sm:mt-4">
+            <button
+              className="relative rounded-xl font-semibold shadow-2xl
+                        bg-slate-800/20 backdrop-blur-md border border-white/10
+                        text-white hover:shadow-xl
+                        hover:bg-slate-800/30 hover:border-[#ff6d4d]/50
+                        hover:scale-105 transition-all duration-300 active:scale-95
+                        group
+                        px-6 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base
+                        before:absolute before:inset-0 before:rounded-xl
+                        before:bg-gradient-to-r before:from-[#ff6d4d]/10 before:to-[#ff4d88]/10
+                        before:opacity-0 before:transition-opacity before:duration-300
+                        hover:before:opacity-100"
+              onClick={closeMobileMenu}
+            >
+              <span className="relative z-10 group-hover:text-[#ff6d4d] transition-colors duration-300">
+                {t('contact_button')}
+              </span>
+            </button>
+            <LanguageSwitcher />
           </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 }

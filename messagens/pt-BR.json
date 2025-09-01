@@ -1,10 +1,13 @@
 {
   "HomePage": {
     "hero": {
-      "title": "Transformando Ideias<br/>em Realidade Digital",
-      "description": "Somos especialistas em criar soluções de software sob medida, desde aplicativos móveis a sistemas complexos, para impulsionar o seu negócio.",
+      "title": "Inovação Digital  <br/> Sob Medida: Da <br/> Concepção à Realidade",
+      "description": "Somos o parceiro ideal para transformar sua visão em realidade. Criamos desde aplicativos intuitivos a complexos sistemas de automação, garantindo que sua empresa prospere no ambiente digital.",
       "formButton": "Começar Agora",
       "formPlaceholder": "Seu melhor e-mail",
+      "saveForm": "Salvando...",
+      "posForm": "Agradecemos o seu contato. Entraremos em contato o mais breve possível. 🤝",
+      "erroForm": "❌ Erro",
       "logoAlt": "Logo da ayrCore",
       "dashboardVideoFallback": "Seu Vídeo do Dashboard Aqui",
       "mobileVideoFallback": "Seu Vídeo do Celular Aqui"
@@ -63,7 +66,7 @@
       }
     },
     "quote": {
-      "text": "\"Se você quer ser<br /> bem-sucedido,<br />precisa ter dedicação <br /> total, buscar o <br />seu último limite<br />e sempre dar <br /> o melhor de si.\"",
+      "text": "\"Se você quer ser bem-sucedido, precisa ter dedicação  total, buscar o seu último limite e sempre dar o melhor de si.\"",
       "author": "— Ayrton Senna",
       "title": "Lenda da Fórmula 1"
     }
@@ -72,7 +75,8 @@
     "features": "Recursos",
     "solutions": "Soluções",
     "about": "Sobre Nós",
-    "contact_button": "Fale Conosco",
+    "home": "Inicio",
+    "contact_button": "Chama a gente!",
     "dropdown": {
       "support_center": {
         "title": "Central de Suporte",
@@ -911,6 +915,14 @@
       "title": "Pronto para Transformar o Seu Negócio?",
       "description": "Vamos conversar sobre como podemos construir o futuro da sua empresa juntos.",
       "button": "Iniciar Conversa"
+    }
+  },
+  "BlogComingSoonPage": {
+    "title": "Nosso Blog está a caminho.",
+    "description": "Estamos preparando um espaço incrível com artigos, insights e novidades sobre tecnologia, desenvolvimento de software e inovação. A ayrCore está cozinhando algo especial para você.",
+    "links": {
+      "backToHome": "Voltar para o Início",
+      "learnOurStory": "Conheça nossa história"
     }
   }
 }
