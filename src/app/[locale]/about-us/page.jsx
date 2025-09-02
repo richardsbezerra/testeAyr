@@ -20,25 +20,21 @@ const ValueCard = ({ icon: Icon, title, description, index }) => {
 
   useEffect(() => {
     const card = cardRef.current;
-    if (!card) return;
-    
-    // Animação inicial com will-change para melhor performance
-    gsap.set(card, { willChange: 'transform, opacity' });
-    
-    gsap.fromTo(card, 
-      { 
-        opacity: 0, 
+
+    // Animação inicial
+    gsap.fromTo(card,
+      {
+        opacity: 0,
         x: -50,
         scale: 0.9
       },
-      { 
-        opacity: 1, 
+      {
+        opacity: 1,
         x: 0,
         scale: 1,
         duration: 0.8,
         delay: index * 0.2,
         ease: "power3.out",
-        onComplete: () => gsap.set(card, { willChange: 'auto' }),
         scrollTrigger: {
           trigger: card,
           start: "top 80%",
@@ -47,24 +43,20 @@ const ValueCard = ({ icon: Icon, title, description, index }) => {
       }
     );
 
-    // Hover animation otimizada
+    // Hover animation
     const handleMouseEnter = () => {
-      gsap.set(card, { willChange: 'transform' });
-      gsap.to(card, { 
-        y: -10, 
-        duration: 0.3, 
-        ease: "power2.out",
-        onComplete: () => gsap.set(card, { willChange: 'auto' })
+      gsap.to(card, {
+        y: -10,
+        duration: 0.3,
+        ease: "power2.out"
       });
     };
 
     const handleMouseLeave = () => {
-      gsap.set(card, { willChange: 'transform' });
-      gsap.to(card, { 
-        y: 0, 
-        duration: 0.3, 
-        ease: "power2.out",
-        onComplete: () => gsap.set(card, { willChange: 'auto' })
+      gsap.to(card, {
+        y: 0,
+        duration: 0.3,
+        ease: "power2.out"
       });
     };
 
@@ -78,17 +70,17 @@ const ValueCard = ({ icon: Icon, title, description, index }) => {
   }, [index]);
 
   return (
-    <article ref={cardRef} className="flex gap-6 items-start group cursor-pointer" itemScope itemType="https://schema.org/Service">
+    <div ref={cardRef} className="flex gap-6 items-start group cursor-pointer">
       <div className="flex-shrink-0">
-        <div className="h-12 w-12 bg-[#ff6d4d] rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#ff6d4d]/30" role="img" aria-label={`Ícone para ${title}`}>
-          <Icon className="text-white text-xl" aria-hidden="true" />
+        <div className="h-12 w-12 bg-[#ff6d4d] rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#ff6d4d]/30">
+          <Icon className="text-white text-xl" />
         </div>
       </div>
       <div className="flex-1">
-        <h3 className="text-xl font-semibold text-white mb-2" itemProp="name">{title}</h3>
-        <p className="text-slate-400 leading-relaxed" itemProp="description">{description}</p>
+        <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+        <p className="text-slate-400 leading-relaxed">{description}</p>
       </div>
-    </article>
+    </div>
   );
 };
 
@@ -127,191 +119,149 @@ export default function AboutUsPage() {
   useEffect(() => {
     const tl = gsap.timeline();
 
-    // Hero Section Animation com performance otimizada
-    const titleElement = titleRef.current;
-    const subtitleElement = subtitleRef.current;
-    
-    if (titleElement) {
-      gsap.set(titleElement, { willChange: 'transform, opacity' });
-      tl.fromTo(titleElement,
-        { 
-          opacity: 0, 
-          y: 100,
-          scale: 0.8
-        },
-        { 
-          opacity: 1, 
-          y: 0,
-          scale: 1,
-          duration: 1.2,
-          ease: "power3.out",
-          onComplete: () => gsap.set(titleElement, { willChange: 'auto' })
-        }
-      );
-    }
-    
-    if (subtitleElement) {
-      gsap.set(subtitleElement, { willChange: 'transform, opacity' });
-      tl.fromTo(subtitleElement,
-        { 
-          opacity: 0, 
+    // Hero Section Animation
+    tl.fromTo(titleRef.current,
+      {
+        opacity: 0,
+        y: 100,
+        scale: 0.8
+      },
+      {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        duration: 1.2,
+        ease: "power3.out"
+      }
+    )
+      .fromTo(subtitleRef.current,
+        {
+          opacity: 0,
           y: 50
         },
-        { 
-          opacity: 1, 
+        {
+          opacity: 1,
           y: 0,
           duration: 0.4,
-          ease: "power2.out",
-          onComplete: () => gsap.set(subtitleElement, { willChange: 'auto' })
+          ease: "power2.out"
         }, "-=0.5");
-    }
 
     // Mission Section Animation
-    const missionElement = missionRef.current;
-    if (missionElement) {
-      gsap.set(missionElement, { willChange: 'transform, opacity' });
-      gsap.fromTo(missionElement,
-        {
-          opacity: 0,
-          x: -100
-        },
-        {
-          opacity: 1,
-          x: 0,
-          duration: 0.3,
-          ease: "power3.out",
-          onComplete: () => gsap.set(missionElement, { willChange: 'auto' }),
-          scrollTrigger: {
-            trigger: missionElement,
-            start: "top 70%",
-            toggleActions: "play none none reverse"
-          }
+    gsap.fromTo(missionRef.current,
+      {
+        opacity: 0,
+        x: -100
+      },
+      {
+        opacity: 1,
+        x: 0,
+        duration: 0.3,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: missionRef.current,
+          start: "top 70%",
+          toggleActions: "play none none reverse"
         }
-      );
-    }
+      }
+    );
 
     // Manifesto Section Animation
-    const manifestoElement = manifestoRef.current;
-    if (manifestoElement) {
-      const manifestoElements = manifestoElement.querySelectorAll('.manifesto-card');
-      manifestoElements.forEach(el => gsap.set(el, { willChange: 'transform, opacity' }));
-      
-      gsap.fromTo(manifestoElements,
-        {
-          opacity: 0,
-          y: 80,
-          scale: 0.9
-        },
-        {
-          opacity: 1,
-          y: 0,
-          scale: 1,
-          duration: 0.3,
-          stagger: 0.3,
-          ease: "power3.out",
-          onComplete: () => manifestoElements.forEach(el => gsap.set(el, { willChange: 'auto' })),
-          scrollTrigger: {
-            trigger: manifestoElement,
-            start: "top 70%",
-            toggleActions: "play none none reverse"
-          }
+    const manifestoElements = manifestoRef.current.querySelectorAll('.manifesto-card');
+    gsap.fromTo(manifestoElements,
+      {
+        opacity: 0,
+        y: 80,
+        scale: 0.9
+      },
+      {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        duration: 0.3,
+        stagger: 0.3,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: manifestoRef.current,
+          start: "top 70%",
+          toggleActions: "play none none reverse"
         }
-      );
-    }
+      }
+    );
 
     // Principles Animation
-    const principlesElement = principlesRef.current;
-    if (principlesElement) {
-      const principleCards = principlesElement.querySelectorAll('.principle-card');
-      principleCards.forEach(el => gsap.set(el, { willChange: 'transform, opacity' }));
-      
-      gsap.fromTo(principleCards,
-        {
-          opacity: 0,
-          y: 60,
-          rotationY: 45
-        },
-        {
-          opacity: 1,
-          y: 0,
-          rotationY: 0,
-          duration: 0.5,
-          stagger: 0.2,
-          ease: "power3.out",
-          onComplete: () => principleCards.forEach(el => gsap.set(el, { willChange: 'auto' })),
-          scrollTrigger: {
-            trigger: principlesElement,
-            start: "top 80%",
-            toggleActions: "play none none reverse"
-          }
+    const principleCards = principlesRef.current.querySelectorAll('.principle-card');
+    gsap.fromTo(principleCards,
+      {
+        opacity: 0,
+        y: 60,
+        rotationY: 45
+      },
+      {
+        opacity: 1,
+        y: 0,
+        rotationY: 0,
+        duration: 0.5,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: principlesRef.current,
+          start: "top 80%",
+          toggleActions: "play none none reverse"
         }
-      );
-    }
+      }
+    );
 
     // CTA Animation
-    const ctaElement = ctaRef.current;
-    if (ctaElement) {
-      gsap.set(ctaElement, { willChange: 'transform, opacity' });
-      gsap.fromTo(ctaElement,
-        {
-          opacity: 0,
-          scale: 0.8,
-          y: 50
-        },
-        {
-          opacity: 1,
-          scale: 1,
-          y: 0,
-          duration: 1,
-          ease: "elastic.out(1, 0.5)",
-          onComplete: () => gsap.set(ctaElement, { willChange: 'auto' }),
-          scrollTrigger: {
-            trigger: ctaElement,
-            start: "top 85%",
-            toggleActions: "play none none reverse"
-          }
-        }
-      );
-    }
-
-    // Floating animation for background elements (otimizada)
-    const floatingElements = document.querySelectorAll(".floating-element");
-    if (floatingElements.length > 0) {
-      floatingElements.forEach(el => gsap.set(el, { willChange: 'transform' }));
-      gsap.to(".floating-element", {
-        y: "random(-20, 20)",
-        x: "random(-10, 10)",
-        rotation: "random(-5, 5)",
-        duration: "random(4, 6)",
-        repeat: -1,
-        yoyo: true,
-        ease: "power1.inOut",
-        stagger: 0.5
-      });
-    }
-
-    // Parallax effect for gradient background (otimizado)
-    const gradientBg = document.querySelector(".gradient-bg");
-    if (gradientBg) {
-      gsap.set(gradientBg, { willChange: 'transform' });
-      gsap.to(".gradient-bg", {
-        yPercent: -50,
-        ease: "none",
+    gsap.fromTo(ctaRef.current,
+      {
+        opacity: 0,
+        scale: 0.8,
+        y: 50
+      },
+      {
+        opacity: 1,
+        scale: 1,
+        y: 0,
+        duration: 1,
+        ease: "elastic.out(1, 0.5)",
         scrollTrigger: {
-          trigger: ".gradient-bg",
-          start: "top bottom",
-          end: "bottom top",
-          scrub: true
+          trigger: ctaRef.current,
+          start: "top 85%",
+          toggleActions: "play none none reverse"
         }
-      });
-    }
+      }
+    );
+
+    // Floating animation for background elements
+    gsap.to(".floating-element", {
+      y: "random(-20, 20)",
+      x: "random(-10, 10)",
+      rotation: "random(-5, 5)",
+      duration: "random(4, 6)",
+      repeat: -1,
+      yoyo: true,
+      ease: "power1.inOut",
+      stagger: 0.5
+    });
+
+    // Parallax effect for gradient background
+    gsap.to(".gradient-bg", {
+      yPercent: -50,
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".gradient-bg",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true
+      }
+    });
 
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
     };
   }, []);
 
-  // Schema.org structured data
+    // Schema.org structured data
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
@@ -351,7 +301,7 @@ export default function AboutUsPage() {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="AyrCore" />
         <link rel="canonical" href="https://ayrcore.com/about" />
-        
+
         {/* Open Graph */}
         <meta property="og:title" content={`${t('hero.title')} | AyrCore`} />
         <meta property="og:description" content={t('hero.subtitle')} />
@@ -359,27 +309,22 @@ export default function AboutUsPage() {
         <meta property="og:url" content="https://ayrcore.com/about" />
         <meta property="og:site_name" content="AyrCore" />
         <meta property="og:locale" content="pt_BR" />
-        
+
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${t('hero.title')} | AyrCore`} />
         <meta name="twitter:description" content={t('hero.subtitle')} />
-        
+
         {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </Head>
-      
-      <div className="bg-[#000d2e] text-white overflow-x-hidden" itemScope itemType="https://schema.org/AboutPage">
-        {/* Skip Navigation Link */}
-        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-[#ff6d4d] text-white px-4 py-2 rounded z-50">
-          Pular para o conteúdo principal
-        </a>
 
+      <div className="bg-[#000d2e] text-white overflow-x-hidden">
         {/* Hero Section */}
-        <header ref={heroRef} className="relative isolate pt-14" role="banner">
+        <header ref={heroRef} className="relative isolate pt-14">
           {/* Background Gradient */}
           <div
             className="gradient-bg absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -393,27 +338,27 @@ export default function AboutUsPage() {
             />
           </div>
 
-          <div className="py-24 sm:py-32 text-center px-6" id="main-content">
-            <h1 ref={titleRef} className="text-4xl font-bold tracking-tight text-white sm:text-6xl mb-6" itemProp="name">
+          <div className="py-24 sm:py-32 text-center px-6">
+            <h1 ref={titleRef} className="text-4xl font-bold tracking-tight text-white sm:text-6xl mb-6">
               {t('hero.title')}
             </h1>
-            <p ref={subtitleRef} className="text-lg leading-8 text-slate-300 max-w-2xl mx-auto" itemProp="description">
+            <p ref={subtitleRef} className="text-lg leading-8 text-slate-300 max-w-2xl mx-auto">
               {t('hero.subtitle')}
             </p>
           </div>
         </header>
 
         {/* Mission and Values Section */}
-        <section className="py-24 sm:py-32" aria-labelledby="mission-title" itemScope itemType="https://schema.org/Organization">
+        <section className="py-24 sm:py-32" aria-labelledby="mission-title">
           <div className="container mx-auto px-8 lg:px-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               {/* Mission */}
               <div ref={missionRef} className="space-y-6">
-                <h2 id="mission-title" className="text-3xl font-bold tracking-tight text-white sm:text-4xl" itemProp="description">
+                <h2 id="mission-title" className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                   {t('mission.title')}
                 </h2>
                 <div className="space-y-4 text-lg leading-8 text-slate-300">
-                  <p itemProp="mission">
+                  <p>
                     {t('mission.paragraph1')}
                   </p>
                   <p>
@@ -423,8 +368,8 @@ export default function AboutUsPage() {
               </div>
 
               {/* Values */}
-              <div className="space-y-8" itemScope itemType="https://schema.org/ItemList">
-                <h3 className="text-2xl font-bold text-white sr-only" itemProp="name">
+              <div className="space-y-8">
+                <h3 className="text-2xl font-bold text-white sr-only">
                   {t('values.title')}
                 </h3>
                 {VALUES_DATA.map((value, index) => (
@@ -459,86 +404,86 @@ export default function AboutUsPage() {
             <div ref={manifestoRef} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
               {/* Manifesto Principal */}
               <div className="space-y-8">
-                <article className="manifesto-card backdrop-blur-lg bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500" itemScope itemType="https://schema.org/Article">
-                  <h3 className="text-2xl font-bold text-[#ff6d4d] mb-4 flex items-center gap-3" itemProp="headline">
-                    <div className="w-3 h-3 bg-[#ff6d4d] rounded-full" aria-hidden="true"></div>
+                <div className="manifesto-card backdrop-blur-lg bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500">
+                  <h3 className="text-2xl font-bold text-[#ff6d4d] mb-4 flex items-center gap-3">
+                    <div className="w-3 h-3 bg-[#ff6d4d] rounded-full"></div>
                     {t('manifesto.beliefs.technology.title')}
                   </h3>
-                  <p className="text-slate-200 leading-relaxed text-lg" itemProp="articleBody">
+                  <p className="text-slate-200 leading-relaxed text-lg">
                     {t('manifesto.beliefs.technology.description')}
                   </p>
-                </article>
+                </div>
 
-                <article className="manifesto-card backdrop-blur-lg bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500" itemScope itemType="https://schema.org/Article">
-                  <h3 className="text-2xl font-bold text-[#ff6d4d] mb-4 flex items-center gap-3" itemProp="headline">
-                    <div className="w-3 h-3 bg-[#ff6d4d] rounded-full" aria-hidden="true"></div>
+                <div className="manifesto-card backdrop-blur-lg bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500">
+                  <h3 className="text-2xl font-bold text-[#ff6d4d] mb-4 flex items-center gap-3">
+                    <div className="w-3 h-3 bg-[#ff6d4d] rounded-full"></div>
                     {t('manifesto.beliefs.simplicity.title')}
                   </h3>
-                  <p className="text-slate-200 leading-relaxed text-lg" itemProp="articleBody">
+                  <p className="text-slate-200 leading-relaxed text-lg">
                     {t('manifesto.beliefs.simplicity.description')}
                   </p>
-                </article>
+                </div>
               </div>
 
               {/* Citação Destaque */}
-              <aside className="relative">
-                <blockquote className="manifesto-card backdrop-blur-xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 rounded-3xl p-12 shadow-2xl" itemScope itemType="https://schema.org/Quotation">
-                  <div className="absolute -top-6 -left-6 w-12 h-12 bg-[#ff6d4d] rounded-full flex items-center justify-center shadow-lg" aria-hidden="true">
+              <div className="relative">
+                <div className="manifesto-card backdrop-blur-xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 rounded-3xl p-12 shadow-2xl">
+                  <div className="absolute -top-6 -left-6 w-12 h-12 bg-[#ff6d4d] rounded-full flex items-center justify-center shadow-lg">
                     <span className="text-white text-2xl font-bold">"</span>
                   </div>
-                  <p className="text-2xl sm:text-3xl font-medium text-white leading-relaxed mb-6" itemProp="text">
+                  <blockquote className="text-2xl sm:text-3xl font-medium text-white leading-relaxed mb-6">
                     {t('manifesto.quote.text')}
-                  </p>
-                  <cite className="text-[#ff6d4d] text-lg font-semibold" itemProp="author">
+                  </blockquote>
+                  <cite className="text-[#ff6d4d] text-lg font-semibold">
                     {t('manifesto.quote.author')}
                   </cite>
-                </blockquote>
-              </aside>
+                </div>
+              </div>
             </div>
 
             {/* Princípios em Grid */}
-            <div ref={principlesRef} className="grid grid-cols-1 md:grid-cols-3 gap-8" itemScope itemType="https://schema.org/ItemList">
-              <article className="principle-card text-center group cursor-pointer" itemScope itemType="https://schema.org/Thing">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#ff6d4d] to-[#ff9500] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl" role="img" aria-label="Ícone de evolução">
-                  <span className="text-white text-3xl font-bold" aria-hidden="true">∞</span>
+            <div ref={principlesRef} className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="principle-card text-center group cursor-pointer">
+                <div className="w-20 h-20 bg-gradient-to-br from-[#ff6d4d] to-[#ff9500] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl">
+                  <span className="text-white text-3xl font-bold">∞</span>
                 </div>
-                <h4 className="text-xl font-bold text-white mb-3" itemProp="name">{t('principles.evolution.title')}</h4>
-                <p className="text-slate-300 leading-relaxed" itemProp="description">
+                <h4 className="text-xl font-bold text-white mb-3">{t('principles.evolution.title')}</h4>
+                <p className="text-slate-300 leading-relaxed">
                   {t('principles.evolution.description')}
                 </p>
-              </article>
+              </div>
 
-              <article className="principle-card text-center group cursor-pointer" itemScope itemType="https://schema.org/Thing">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#4a00e0] to-[#8000ff] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl" role="img" aria-label="Ícone de impacto">
-                  <span className="text-white text-3xl font-bold" aria-hidden="true">⚡</span>
+              <div className="principle-card text-center group cursor-pointer">
+                <div className="w-20 h-20 bg-gradient-to-br from-[#4a00e0] to-[#8000ff] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl">
+                  <span className="text-white text-3xl font-bold">⚡</span>
                 </div>
-                <h4 className="text-xl font-bold text-white mb-3" itemProp="name">{t('principles.impact.title')}</h4>
-                <p className="text-slate-300 leading-relaxed" itemProp="description">
+                <h4 className="text-xl font-bold text-white mb-3">{t('principles.impact.title')}</h4>
+                <p className="text-slate-300 leading-relaxed">
                   {t('principles.impact.description')}
                 </p>
-              </article>
+              </div>
 
-              <article className="principle-card text-center group cursor-pointer" itemScope itemType="https://schema.org/Thing">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#00d4ff] to-[#0099cc] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl" role="img" aria-label="Ícone de parceria">
-                  <span className="text-white text-3xl font-bold" aria-hidden="true">🤝</span>
+              <div className="principle-card text-center group cursor-pointer">
+                <div className="w-20 h-20 bg-gradient-to-br from-[#00d4ff] to-[#0099cc] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-xl">
+                  <span className="text-white text-3xl font-bold">🤝</span>
                 </div>
-                <h4 className="text-xl font-bold text-white mb-3" itemProp="name">{t('principles.partnership.title')}</h4>
-                <p className="text-slate-300 leading-relaxed" itemProp="description">
+                <h4 className="text-xl font-bold text-white mb-3">{t('principles.partnership.title')}</h4>
+                <p className="text-slate-300 leading-relaxed">
                   {t('principles.partnership.description')}
                 </p>
-              </article>
+              </div>
             </div>
 
             {/* Call to Action */}
             <div className="text-center mt-20">
-              <div ref={ctaRef} className="inline-block backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl p-8 shadow-2xl" itemScope itemType="https://schema.org/CallToAction">
-                <h3 className="text-2xl font-bold text-white mb-4" itemProp="name">
+              <div ref={ctaRef} className="inline-block backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl p-8 shadow-2xl">
+                <h3 className="text-2xl font-bold text-white mb-4">
                   {t('cta.title')}
                 </h3>
-                <p className="text-slate-300 mb-6 text-lg" itemProp="description">
+                <p className="text-slate-300 mb-6 text-lg">
                   {t('cta.description')}
                 </p>
-                <CTAButton href="https://shre.ink/telefone-ayrCore" itemProp="target">
+                <CTAButton href="https://shre.ink/telefone-ayrCore">
                   {t('cta.button')}
                 </CTAButton>
               </div>
