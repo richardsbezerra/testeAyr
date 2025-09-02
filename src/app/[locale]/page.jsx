@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useCallback, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Link from 'next/link';
-
+import Head from 'next/head';
 import Image from 'next/image';
 import FooterAry from '@/components/layout/FooterAry';
 import ServiceCard from '@/components/ui/ServiceCard';
@@ -390,6 +390,181 @@ const handleSubmit = async (e) => {
 
   return (
     <>
+
+        <Head>
+        {/* Meta tags essenciais */}
+        <title>{t('seo.title') || 'Desenvolvimento de Software, Apps e Soluções Web | Sua Empresa'}</title>
+        <meta name="description" content={t('seo.description') || 'Especialistas em desenvolvimento de aplicações web, mobile, SaaS e soluções corporativas. React, Next.js, Node.js, Python e mais. Transforme suas ideias em realidade digital.'} />
+        <meta name="keywords" content={t('seo.keywords') || 'desenvolvimento web, aplicativos mobile, SaaS, React, Next.js, Node.js, Python, TypeScript, desenvolvimento de software, soluções corporativas, automação, integração'} />
+        
+        {/* Meta tags Open Graph */}
+        <meta property="og:title" content={t('seo.og.title') || 'Desenvolvimento de Software, Apps e Soluções Web'} />
+        <meta property="og:description" content={t('seo.og.description') || 'Especialistas em desenvolvimento de aplicações web, mobile, SaaS e soluções corporativas. Transforme suas ideias em realidade digital.'} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ayrcoretech.com" />
+        <meta property="og:image" content="https://ayrcoretech.com/img/og-image.jpg" />
+        <meta property="og:image:alt" content={t('seo.og.imageAlt') || 'Logo da empresa - Desenvolvimento de Software'} />
+        <meta property="og:site_name" content="Sua Empresa" />
+        <meta property="og:locale" content="pt_BR" />
+
+        {/* Meta tags Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t('seo.twitter.title') || 'Desenvolvimento de Software, Apps e Soluções Web'} />
+        <meta name="twitter:description" content={t('seo.twitter.description') || 'Especialistas em desenvolvimento de aplicações web, mobile, SaaS e soluções corporativas.'} />
+        <meta name="twitter:image" content="https://ayrcoretech.com/img/twitter-image.jpg" />
+        <meta name="twitter:image:alt" content={t('seo.twitter.imageAlt') || 'Logo da empresa - Desenvolvimento de Software'} />
+
+        {/* Meta tags adicionais */}
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="author" content="ayrCore" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="Portuguese" />
+        <meta name="geo.region" content="BR" />
+        <meta name="geo.position" content="-23.5558,-46.6396" />
+        <meta name="ICBM" content="-23.5558,-46.6396" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://ayrcoretech.com" />
+
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+        {/* Schema.org JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://ayrcoretech.com/#organization",
+                  "name": "Sua Empresa",
+                  "url": "https://ayrcoretech.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://ayrcoretech.com/img/logo.png",
+                    "width": 300,
+                    "height": 100
+                  },
+                  "sameAs": [
+                    "https://www.facebook.com/suaempresa",
+                    "https://www.instagram.com/ayrcoretech",
+                    "https://www.linkedin.com/company/suaempresa",
+                    "https://github.com/suaempresa"
+                  ],
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+55-11-99999-9999",
+                    "contactType": "customer service",
+                    "availableLanguage": ["Portuguese", "English"]
+                  },
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "BR",
+                    "addressRegion": "SP",
+                    "addressLocality": "São Paulo"
+                  }
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://ayrcoretech.com/#website",
+                  "url": "https://ayrcoretech.com",
+                  "name": "Sua Empresa - Desenvolvimento de Software",
+                  "description": "Especialistas em desenvolvimento de aplicações web, mobile, SaaS e soluções corporativas",
+                  "publisher": {
+                    "@id": "https://ayrcoretech.com/#organization"
+                  },
+                  "potentialAction": [
+                    {
+                      "@type": "SearchAction",
+                      "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://ayrcoretech.com/search?q={search_term_string}"
+                      },
+                      "query-input": "required name=search_term_string"
+                    }
+                  ]
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://ayrcoretech.com/#webpage",
+                  "url": "https://ayrcoretech.com",
+                  "name": "Desenvolvimento de Software, Apps e Soluções Web",
+                  "isPartOf": {
+                    "@id": "https://ayrcoretech.com/#website"
+                  },
+                  "about": {
+                    "@id": "https://ayrcoretech.com/#organization"
+                  },
+                  "description": "Especialistas em desenvolvimento de aplicações web, mobile, SaaS e soluções corporativas. React, Next.js, Node.js, Python e mais.",
+                  "breadcrumb": {
+                    "@id": "https://ayrcoretech.com/#breadcrumb"
+                  }
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://ayrcoretech.com/#breadcrumb",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://ayrcoretech.com"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Service",
+                  "name": "Desenvolvimento de Software",
+                  "provider": {
+                    "@id": "https://ayrcoretech.com/#organization"
+                  },
+                  "description": "Desenvolvimento de aplicações web e mobile personalizadas",
+                  "serviceType": "Software Development",
+                  "areaServed": "BR",
+                  "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Serviços de Desenvolvimento",
+                    "itemListElement": [
+                      {
+                        "@type": "Offer",
+                        "itemOffered": {
+                          "@type": "Service",
+                          "name": "Desenvolvimento Web",
+                          "description": "Criação de sites e aplicações web responsivas"
+                        }
+                      },
+                      {
+                        "@type": "Offer",
+                        "itemOffered": {
+                          "@type": "Service",
+                          "name": "Desenvolvimento Mobile",
+                          "description": "Aplicativos nativos e híbridos para iOS e Android"
+                        }
+                      },
+                      {
+                        "@type": "Offer",
+                        "itemOffered": {
+                          "@type": "Service",
+                          "name": "SaaS Development",
+                          "description": "Soluções de Software como Serviço escaláveis"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            })
+          }}
+        />
+      </Head>
+
       <div className="text-white overflow-hidden">
         {/* HERO */}
         <main ref={heroRef} className="flex-grow flex items-center pt-42 sm:pt-40 md:pt-52 pb-16 sm:pb-24 md:pb-32">
