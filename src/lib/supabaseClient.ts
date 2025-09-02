@@ -4,18 +4,43 @@ import { createClient, SupabaseClient } from '@supabase/supabase-js';
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
+// Função para criar um cliente mock para desenvolvimento
+const createMockSupabaseClient = () => {
+  return {
+    from: () => ({
+      insert: async () => ({ 
+        error: { message: 'Supabase não configurado - modo desenvolvimento' },
+        data: null 
+      }),
+      select: async () => ({ 
+        error: { message: 'Supabase não configurado - modo desenvolvimento' },
+        data: [] 
+      }),
+      update: async () => ({ 
+        error: { message: 'Supabase não configurado - modo desenvolvimento' },
+        data: null 
+      }),
+      delete: async () => ({ 
+        error: { message: 'Supabase não configurado - modo desenvolvimento' },
+        data: null 
+      }),
+    }),
+    // Adicione outros métodos conforme necessário
+  } as unknown as SupabaseClient;
+};
+
 let supabase: SupabaseClient;
 
 if (!supabaseUrl || !supabaseAnonKey) {
-  console.error(
-    '[Supabase Error] Variáveis de ambiente não definidas:\n' +
-    `NEXT_PUBLIC_SUPABASE_URL = ${supabaseUrl}\n` +
-    `NEXT_PUBLIC_SUPABASE_ANON_KEY = ${supabaseAnonKey}\n` +
-    'Certifique-se de que estas variáveis estão definidas no .env.local ou no Vercel.'
+  console.warn(
+    '[Supabase Warning] Variáveis de ambiente não definidas:\n' +
+    `NEXT_PUBLIC_SUPABASE_URL = ${supabaseUrl || 'undefined'}\n` +
+    `NEXT_PUBLIC_SUPABASE_ANON_KEY = ${supabaseAnonKey || 'undefined'}\n` +
+    'Usando cliente mock para desenvolvimento. Para produção, configure as variáveis no .env.local'
   );
 
-  // Cliente falso que lança erro se usado
-  supabase = {} as SupabaseClient; // cast para satisfazer o TS
+  // Cliente mock que não quebra a aplicação
+  supabase = createMockSupabaseClient();
 } else {
   supabase = createClient(supabaseUrl, supabaseAnonKey);
 }
